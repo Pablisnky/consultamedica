@@ -1,0 +1,111 @@
+@media (min-width: 1001px) and (max-width: 1300px){/*aplicaría en cualquier medio con dimensiones entre 1001 y 1300 píxeles.*/
+
+body{
+	background-color:;
+	max-height: 50% !important;
+}
+footer{
+	height: 24%;
+}
+.Afiliacion_0 select{/*formularios verticales*/
+	background-color:white  ;
+	width: 190px !important;
+}
+.contenedor_03{
+	background-color: ; 
+	width: 60%; 
+	float: right; 
+	margin-top: 10%; 
+	margin-right: 5%; 
+}
+.contador{/*contactenos.php*/
+	margin-left: 82%;
+	height: 15px;	
+	line-height: 15px;
+	font-size: 11px;
+}
+.detalle_1{/*buscarTodosMedicamOfertados.php*/
+	background-color: ;
+	text-align: center; 
+	width: 5% !important;
+}
+.detalle_2{/*buscarTodosMedicamOfertados.php*/
+	background-color: ;
+	text-align: center; 
+	width: 13% !important;
+}
+.Inicio_4{/* index.php */
+	background-color: ;
+	margin-top: 20%;
+	font-family: 'Raleway', sans-serif;
+	text-align: center; 
+	font-size: 24px; 
+	width: 40%;  
+	display: block;
+	position: absolute;
+	left: 61%;
+	top: 20%;
+}
+.Inicio_4:hover{
+	font-weight: bolder;
+	height: 30px;
+}
+.Inicio_27{/* medicamentos.php */
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;  
+	font-size: 30px; 
+	line-height: 150%;
+	width: 40%; 
+	margin-bottom: -70px;
+	position: absolute; 
+	top: 83%;
+	left: 44%;
+}
+.imagen_1{/*Proposito.php*/
+	width: 45%; 
+	object-fit:contain ;/* deseado cover */
+	filter: brightness(110%);
+	float: right;
+	margin: 2% 4% 8% 4%;
+}
+.index_4{
+	height: 30%;
+	display: block;
+}
+.modalFondo{/*index.php*/
+	position: static;
+}
+.textoCelda_6{/*pacienteTratamientos.php   medicamentosBuscar.php*/ 
+	background-color: ;
+	margin-left:-20%;
+}
+.salir{/*directorio.php*/
+	margin-top: 35%;
+}
+#Perfil_11{/*medicamentos.php*/
+	background-color:red; 
+	position: absolute;
+	top: 36%;
+	left: 15%;
+	width: 20%; 
+	display: flex;
+}
+#sesion_3{/*RegistroPacientes_Xxxxxx.phhp*/
+	background-color: ;
+	min-height: 530px;
+}
+#sesion_4{/*InicioSesion_Xxxxxx.phhp*/
+	background-color: ;
+	min-height: 670px;
+}
+#sesion_8{/*Promo_Xxxxxx.phhp*/
+	background-color: ;
+	min-height: 610px;
+}
+
+}
+
+
+
+

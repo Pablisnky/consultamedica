@@ -1,0 +1,28 @@
+@media screen and (min-width: 1400px){/*se tendrá en cuenta solamente cuando la anchura de la pantalla sea de 1400px en adelante*/
+
+.Inicio_4{/*texto de "Afiliese aqui" en Beneficios.html texto escale su consultas en index.php */
+	background-color: ;
+	margin-top: 20%;
+	font-family: 'Raleway', sans-serif;
+	text-align: center; 
+	font-size: 27px; 
+	width: 40%;  
+	display: block;
+	position: absolute;
+	left: 60%;
+	top: 20%;
+}
+.Inicio_4:hover{
+	font-size: 27px;
+	font-weight: bolder;
+	height: 30px;
+}
+
+}
+
+
+
+
+
+@media (min-width: 800px) and (max-width: 1336px) {/*aplicaría en cualquier medio con dimensiones entre 800 y 1200 píxeles.*/
+}

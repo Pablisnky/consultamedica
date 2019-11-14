@@ -1,0 +1,3893 @@
+charset "UTF-8";
+header, section, body, footer, aside, nav, article, figure {
+display: block;
+margin: 0;
+padding: 0;
+}
+/*------ fin de reset CSS-----*/
+@keyframes modal{
+	100%{/*al 100% de ejecutada la animación se aplican estas reglas a la clase modal*/
+		visibility: visible;
+		opacity: 1;
+	}
+}
+*{
+	color: ;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	box-sizing: border-box;
+}	
+a{
+	text-decoration: none;
+	font-family: ;
+	color: #040652;
+}
+a:hover{
+	font-weight: bold;
+}
+a[class=directorio_01]{
+	font-size: 15px;
+	background-color: ;
+}
+a[class=paciente]:hover{/*ReporteMensual_Basico.php*/
+	font-weight: bold;
+	color: white;
+}
+body{
+	background-color: #F4FCFB;
+	height:100% ;
+	width: 100%;
+}
+caption{
+	background-color: ;
+	width: 100%;
+}
+footer{
+	background:rgba(4, 6, 82, 0.1);
+	text-align:center;
+	height: 15%;
+	font-size:10px;
+	font-weight: bold;
+	color:black;
+	position: relative;
+	border-top-color: #040652;
+	border-top-style: solid;
+	border-top-width: 3px;
+	clear: right;
+}
+header{
+	background-color:;
+	z-index: 5;
+}
+header label{/*todos los archivos*/
+	display: none;
+}
+header label:hover{/*Todos los archivos*/
+	background-color:;
+	cursor: pointer;
+}
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+hr{
+	margin-top: 4%;
+}
+h1{/**/
+	background-color: rgba(4, 6, 82, 0.1);
+	font-family:'courier';
+	font-size:5vw; 
+	text-align:center;
+	color:#040652;
+	padding-top: 1.1%;
+	height: 8vw;
+	letter-spacing:1vw;
+	cursor: pointer;
+}
+h2{/*directorio.php   index.php*/
+	background-color: ;
+	text-align: center;
+	font-size: 57px;
+	font-family:'courier';
+	letter-spacing: 2px;
+	color: #C7CFE4;
+	margin-bottom: -3% !important;
+}
+h3{/*titulos en todas las paginas*/
+	background-color:;
+	font-family: "verdana";
+ 	font-size:30px;
+	color:#040652;
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 4%;
+ 	}
+h5{
+	font-family: 'arial';
+	text-align:center;
+	letter-spacing: 3px;
+	margin: 5 10;
+	color:blue;
+	font-size: 18px;
+	/*text-transform: uppercase;*/
+}
+h6{/*pacientes.php   Promo.php*/
+	font-family: 'verdana';
+	font-size: 16px;
+	/*text-transform: uppercase;*/
+	text-align: center;
+}
+img{
+	margin-left: auto;
+    margin-right: auto;
+	display:block;
+	width:100%;
+	margin-top: 0px;
+}
+input{
+	background-color: ;
+	width: 45%;
+	text-align:center;
+	padding-top: 2px;
+}
+input[type=submit]{
+	border-radius: 15px;
+	border:0px;
+	padding:2px 2px;
+	background:#040652;
+	color:rgba(194, 245, 19,1);
+	cursor: pointer;
+	width:95px;
+	height: 22px;
+	font-size:13px;
+	margin-top: 30px;
+}
+input[type=submit]:hover{
+	background:#040652;
+	font-weight: bold;
+	color: white !important;
+}
+input[id=registroPaciente]{
+	margin-left: 170px;
+}
+input:focus{
+  	background-color: #EAF1FA;
+}   
+li{
+	text-align:justify;
+	line-height:20px;
+}
+legend{
+	font-size: 20px;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+}
+p{
+	line-height: 27px;
+}
+select{
+	background-color: ;
+	width: 44%;
+}
+textarea {
+	background-color: ;
+	margin-top: 10px;
+	margin-left: 13px;
+	margin-bottom: 5px;
+	padding: 10px;
+	resize: none;
+	text-align: left;
+}
+textarea:focus{
+  	background-color: #EAF1FA;
+}
+td, td b{ 
+	background-color:;
+	font-size:13px; 
+} 
+th{
+	background-color:#BCBEDA ; 
+	color: black;
+	font-size: 12px;
+	font-weight: normal;
+	padding:10px;
+}
+tr:hover{
+    background-color: rgba(190, 191, 221, 0.3); 
+    font-weight: bold;
+}
+ul{
+	list-style-position:outside;
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------*/
+#AcuseContacto_01{
+	background-color: ;
+	height: 340px;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+#Afili{/*registroEspecialista.php*/
+	background-color: ;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	width: 40%;
+} 
+#AfiliacionSubmit{/*registroEspecialista.php*/
+	background-color: ;
+	margin-left: 37.5%;
+	margin-top: 10px;
+	width: 25%;
+	color:rgba(194, 245, 19,1);
+}
+#Afiliacion_1{/*registroEspecialista.php*/
+	background-color:;
+	width: 100%;
+	margin: 2% auto;
+	padding: 10px 2%;
+} 
+#Afiliacion_2{/*Afiliacion.html*/
+	background-color:;
+	margin-top: -150px;
+	margin-left: 250px;
+	margin-bottom: 120px;
+	float:left;
+	padding: 10px;
+}
+#Afiliacion_5{
+	background-color:;
+	border-radius: 15px;
+	padding: 10px;
+	margin-top: 40px;
+	margin: auto;
+	width: 90%;
+}
+#Afiliacion_5 textarea{
+	background-color:;
+	width: 80%;
+	margin-left: 5%;
+	margin-top: 15px;
+}
+#Afiliacion_7{/*DoctorAfiliado.php*/
+	background-color:;
+	border-radius: 15px;
+	padding: 10px ;
+	width: 65%;
+}
+#Afiliacion_8{
+	background-color:;
+	width: 50%;
+	display: inline-block;
+	margin-left: 5%;
+}
+#Afiliacion_8 li{
+	margin-top: 15px;
+}
+#Afiliacion_9{
+	width: 80%;
+	margin-left: 50px;
+}
+#Afiliacion_10{
+	background-color:;
+	width: 50%;
+	height: 100px;
+	margin-left: 100px;
+	margin-top:20px;
+	margin-bottom: 30px;
+	float: left;
+	padding: 10px;
+}
+#Beneficios_00{
+	background-color: ;
+	width: 40%;
+	margin-left: 2%;
+	margin-top: 2%;
+	float: left;
+}
+#Beneficios_01{
+	background-color:;
+	width: 50%;
+	margin-right: 3%;
+	margin-top: 0%;
+	float: right;
+	margin-bottom: 5%;
+}
+#Beneficios_01 li{
+	background-color: ;
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size:1.2vw;
+	line-height:30px
+}
+#Beneficios_02{
+	background-color:;
+	width: 100%;
+	padding-left: 5%;
+}
+#BotonActualizar{/*mostrarPerfilPaciente.php*/
+	background-color: ;
+	display: block;
+	margin:10px auto;
+	width: 22%;
+	color:rgba(194, 245, 19,1) ;
+}
+#calcular{
+	width: 120px;
+}
+#cambiar{/*DoctorAfiliado.php   ingresar.php*/
+	background-color: ;
+	width: 50%;
+	display: block;
+	margin-top: -1%;
+	margin-left: 45%;
+}
+#cancelar_1{/*Cancelar.html*/
+	background-color:;
+	width:32%;
+	margin-left: 0%;
+	display: inline-block;
+	float: left;
+}
+#cancelar_1 input[type=text], #cancelar_1 label{/*al parecer no existe*/
+	width: 90%;
+	margin-left: 3%;
+	margin-bottom: 10px;
+}
+#cancelar_2{
+	background-color: ;
+	padding-left: 2%;
+	padding-bottom: 20px;
+	border-radius: 15px
+}
+#cancelar_3 td{
+	background-color:;
+}
+#cancelar_4{/*Cancelar.html*/
+	background-color:;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 2%;
+	display: inline-block;
+}
+#Cancelar_5{/*Cancelar.html*/
+	background-color:;
+	margin-bottom: 15px;
+	margin: auto;
+	width: 48%; 
+}
+#cancelar_8{/*Cancelar.html*/
+	background-color:;
+	width: 45%;
+	margin: auto
+}
+#Calendario_CM{
+	background-color:;
+	position:absolute;
+	bottom:270px;
+	left: 7px;
+	z-index: 2;
+}
+#carga{/*InicioSesion_Basico.php*/
+	background-color:; 
+	margin-top: 0%;
+	width:35%; 
+	height: 80% !important;
+}
+#carga_2{/*RegistroPacientes.php */
+	background-color:; 
+	margin-top: 0%;
+	width:100%; 
+}
+#carga_3{/*InicioSesion_Xxxxxx.php*/
+	background-color:; 
+	margin-top: 3% !important;
+	width:50%; 
+	margin:auto;
+	margin-bottom: 1%;
+}
+#Carga_5{/*RegistroPacientes_Xxxxxx.php */
+	background-color:  rgba(0,0,0,0);
+	width: 40%;
+	float: right;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	display: none;
+	z-index: 4;
+	margin-top: 0%; 
+}
+#cerrar{
+	display: none;
+}
+#cerrar + label{/* aplica estilo al elemento que esta inmediatamentamente despues de #cerrar index.php  directorio.php*/
+	position: fixed;
+	color: rgba(4,17,50,0.95);
+	z-index: 50;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-left: 90%;
+	margin-top: 2%;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	background-color:rgba(194, 245, 19,1) ;
+	border-radius: 20%;
+	text-align: center;
+	padding-top: 0px;
+	cursor: pointer;
+
+	/*animation: modal 1s;tiempo que tarda en formarse la animacion*/
+	/*animation-delay: 0.5s;tiempo que tarda en aparecer la animacion*/
+	/*animation-fill-mode: forwards;la animacion se queda fija*/
+	/*visibility: hidden;
+	opacity: 0;*/
+}
+#cerrar:checked + label, #cerrar:checked ~ .modal{
+	display: none;
+}
+#clientes1{
+	width: 1200px;
+	height: 240px;
+	padding: 5px;
+	border:2px solid #000;
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+}
+#clientes2{
+	width: 1200px;
+	height: 240px;
+	position: absolute;
+	top: 300px;
+	z-index: 3;
+	transition-duration: 2s;
+}
+#clientes3{
+	width: 1200px;
+	height: 240px;
+	position: absolute;
+	top: 600px;
+	z-index: 3;
+	transition-duration: 2s;
+}
+#clientes1:hover #clientes2{
+	top: 0px;
+	width: 1200px;
+	top: 60px;
+}
+#clientes1:hover #clientes3{
+	top: 0px;
+	width: 1200px;
+	top: 60px;
+}
+#clientes1 p{
+	font-size: 24px;
+	letter-spacing: 5px;
+	line-height: 35px;
+}
+#contacto input[type=textarea]{
+	width: 470px;
+	height: 100px; 
+}
+#contacto_2{/*contactenos.php*/
+	background-color:;
+	width: 50%;
+	padding: 0% 5%;
+	margin-left: 0px;
+	float:left;
+	margin-top: 2%;
+}
+#contacto_3{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#Contenido{/*contactenos.php*/
+	background-color: ;
+	min-height: 100px;
+}
+#Directorio_0{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-left: 20px;
+	background-color: black;
+}
+#Directorio_00{
+	background-color:;
+	width: 90%;
+	height:;
+	margin:auto;
+	margin-top: 2%;
+	margin-bottom: 20px;
+	display:;
+	justify-content:;
+}
+#Directorio_00 p{/*Directorio.php*/
+	color:black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+}
+#Directorio_1{
+	background-color:;
+	margin-bottom: 15px;
+	margin-left: 5%;
+	padding: 10px;
+	width: 390px;
+	letter-spacing: 0px;
+	clear: left;
+}
+#Directorio_1A{
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 360px;
+	margin-left: -20px;
+	letter-spacing: 0px;
+}
+#Directorio_1B{
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 330px;
+	margin-left: -10px;
+	letter-spacing: 0px;
+}
+#Directorio_1C{
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 280px;
+	margin-left: 0px;
+	letter-spacing: 0px;
+}
+#Directorio_1 a, #Directorio_1A a, #Directorio_1B a, #Directorio_1C a,#Directorio_5{
+	margin-left: 20px;
+	line-height: 25px;	
+	text-decoration:none;
+	color:#575DCE;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	padding: 0 5px 0 5px;
+}
+#Directorio_00 a:hover{
+	background-color: ;
+	color:#040652;
+	font-weight: bold;
+}
+#Directorio_2{
+	margin-bottom: 15px;
+	margin: auto;
+	width: 1200px;
+	margin-bottom: 20px;
+	letter-spacing: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 15px
+	padding: 15px;
+}
+#Directorio_5{/*directorio.php*/
+	background-color:;
+	margin-left: auto;
+	margin-right: auto;
+	width: 280px;
+	margin-bottom: 2%;
+}
+#Doctores_1{/*Doctores.php*/
+	background-color: ;
+	height: 300px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+#entrarSesion{/*DoctorAfiliacion.php*/
+	background-color: ;
+	margin-left: 60px;
+}
+#entrarRegistrarse{
+	margin-left: 130px;
+}
+#entrarRegistrarse:hover{
+	color: white;
+}
+#foto{
+	width: 50%; 
+	margin-left: 0%; 
+	margin-right: 10px; 
+	padding:0% 2%;
+}
+#formMedicam{/*medicamentos.php*/
+	display: none;
+}
+#funcionamiento{
+	/*border:2px solid blue;*/
+	width: 1000px;
+	margin:auto;
+}
+#Funcionamiento_1{
+	border:1px solid black;
+	border-radius: 15px;
+	width: 1000px;
+	margin-bottom: 15px;
+}
+#hcd_2{
+	background-color:;
+	width: 90%;
+	margin:auto;
+}
+#header_01{/*paginas con login - texto "ConsultaMedica.com.co"*/
+	 background-color:#040652 ; 
+	 width: 75%; 
+	 height: 66px;
+	 float: left; 
+	 border-right-color: white; 
+	 border-right-style: solid;
+	 border-right-width: 1px; 
+	 z-index: 0;
+}
+.header_02{/*headerDoctor.php*/
+	background-color:; 
+	color: rgba(194, 245, 19,1);
+	cursor: default; 
+	font-size: 3vw; 
+	height: 100%; 
+	padding: 1% 0%;  
+	text-align: center; 
+	padding-left: 2%
+}
+#header_03{/*paginas con login - texto "Dr. Xxxxxxx*/
+	background-color: ; 
+	float: right;   
+	width: 25%
+}
+#historia_4{/*Contenedor principal de solicitud de cita en HistoriaClinica.php*/
+	background-color:red;
+	margin-top: ;
+	margin-left: 2%;
+	width: 100%;
+	position:;
+}
+#historia_44{/*Contenedor principal de solicitud de cita en HistoriaClinica.php*/
+	background-color:;
+	margin-top: ;
+	margin-left: 2%;
+	width: 100%;
+	position:;
+}
+#historia_5{
+	background-color:;
+	width: 60%;
+	margin-top: 20px;
+	margin-left: 3%;
+	border-radius: 15px;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+#historia_5 input[type="text"]{
+	margin-bottom: 10px;
+	width: 25%;
+}
+#img_01{
+	background-color: green;
+}
+#Inicio{/*index.php*/
+	background-color: rgba(4,17,50,0.75) ;
+	width: 55%;
+	margin: auto;
+	margin-top: 4%;
+	border-radius: 20px;
+	padding: 15px;
+	padding-top: 1%;
+}
+#Inicio p{/*index.php*/
+	color: #C7CFE4;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	line-height:1.5;
+}
+#InicioSesion_3{
+	background-color:;
+	width: 25%;
+}
+#InicioSesion_4{/*Contenedor secundario de solicitud de cita en HistoriaClinica.php*/
+	background-color: ;
+	margin-left: ;
+	margin-top: 10px;
+}
+#InicioSesion_5{
+	margin-left: 350px;
+}
+#lineaPerfil{
+	display: none;
+}
+#logo{
+	display: none;
+}
+#marcaA:checked + label{/*medicamentosBuscar.php     cuando marcaA esta chequeado la label que esta inmediatamente despues se le aplican esta regla*/
+	font-weight: bold;
+}
+#marcaB:checked + label{/*medicamentosBuscar.php     cuando marcaA esta chequeado la label que esta inmediatamente despues se le aplican esta regla*/
+	font-weight: bold;
+}
+#Medicina_01{/*medicamentos.php*/
+	background-color: ;
+	width: 90%;
+	margin: auto;
+}
+#MenuRes{
+	display:none ;
+}
+#MostrarCiudad{/*Citas_2Autofill.php*/
+	background:;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#MostrarDireccion{/*Citas_2Autofill.php*/
+	background-color:;
+	color:black;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 1%;
+	padding-left: 1%;
+	width:95%;
+	position: relative;
+}
+#MostrarDireccionAutofill{/*Citas_2Autofill.php*/
+	background-color:;
+	color:black;
+	margin-top: 11%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 1%;
+	padding-left: 1%;
+	width:95%;
+	position: relative;
+}
+#MostrarDoctor{/*Citas_2.php*/
+	width: 95% !important;
+	position:absolute;
+	bottom:21%;
+	height: 40px;
+	right: 380%;
+}
+#MostrarDoctor_2{/*Citas_2Autofill.php*/
+	background-color:;
+	width: 95%;
+	position:absolute;
+	bottom:24%;
+	height: 40px;
+	right: 380%;
+}
+#MostrarDoctor_3{/*Citas_2Autofill_2.php*/
+	background-color:;
+	width: 100%;
+	position:absolute;
+	bottom:23%;
+	height: 40px;
+	right: 265%;
+}
+#MostrarFechas{/*InicioSesion_Basico.php*/
+	background-color:;
+	width: 48%;
+	height: 400px;
+	margin-left: 0.5%;
+	margin-top: 1.5%;
+	float: right;
+}
+#MostrarSalario{/*Citas_2.php*/
+	width: 90%;
+	height: 25px;
+	font-size: 17px;
+	position:absolute;
+	bottom:-1%;
+	left: 15px;	
+	padding-top: 5;
+	/*border:1px solid black;
+	border-radius:15px;*/
+}
+#MostrarSalario_2{/*Citas_2Autofiññ.php*/
+	background-color: ;
+	width: 100%;
+	position: relative;
+	top:26%;
+}
+#MostrarHorarios{/*Citas_2Autofill.php      Citas_2.php*/
+	background-color:;
+	color:black;
+	font-size: 8px;
+	margin-top: 3%;
+	padding-left: 2%;
+	padding-top: 3%;
+	text-align:center;
+	width:100%;
+	height: 40%;
+}
+#MostrarPacientes{/*Citas_2Autofill.php*/
+	background:;
+	color:black;
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align:center;
+	width:90%;
+	height: 85px;
+	font-size: 14px;
+}
+#MostrarPacientes_2{/*Citas_2Autofill_2.php*/
+	background:;
+	color:black;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+	text-align:center;
+	width:100%;
+	height: 85px;
+	font-size: 14px;
+}
+#MostrarTurno{
+	background-color: ;
+	color:black;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top:-170px;
+	right: 117%;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 30px;
+}
+#n1{
+	display: inline-block;
+	color: white;
+	background-color: #040652;
+	padding-top: 6;
+	padding-bottom: 6;
+	width: 250px;
+	font-size: 15px;
+	position: relative;
+	top: 25px; 
+}
+#n001{/*Citas_2Autofill.php*/
+	background-color: #040652;
+	display: inline-block;
+	color: white;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%;
+	font-size: 15px;
+	position: relative;
+	top: 0px; 
+}
+#n002{/*Citas_2Autofill.php*/
+	background-color: #040652;
+	display: inline-block;
+	color: white;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 100%;
+	font-size: 15px;
+	position: relative;
+	top: 17px; 
+}
+#n003{
+	background-color:#040652 ;
+	display: inline-block;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	font-size: 15px;
+	position: relative;
+	top: 75px; 
+}
+#n2{
+	display: inline-block;
+	color: white;
+	background-color: #040652;
+	padding: 6 ;
+	padding-left: 47;
+	padding-right: 46.5;
+	width: 220px;
+}
+#n3{/*Citas_2Autofill.php        CItas_2.php*/
+	display: inline-block;
+	color: white;
+	background-color: #040652;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	font-size: 15px;
+}
+#n4{
+	display: inline-block;
+	color: white;
+	background-color: #040652;
+	padding-top: 6;
+	padding-bottom: 6;
+	width: 220px;
+	font-size: 15px;
+	position: relative;
+	bottom: -30px;
+}
+#n30{
+	/*border:1px solid #000;*/
+	height: 30px;
+	padding: 3px;
+	width: 1043px;
+	margin-top: 20px;
+}
+#n40{
+	/*border:1px solid #000;*/
+	height: 30px;
+	padding: 3px;
+	width: 1043px;
+	margin-top: 40px;
+}
+#n44{/*HistoriasClinicas.php*/
+	background-color:;
+	text-align: center;
+    width:100%;
+    height: 19px;
+    margin-top: 5%;
+    top: 45px;
+}
+#n80{
+	background-color: ;
+	position:relative;
+	top:-30px;
+	float: left;
+	display:inline-block;
+	margin-left: 7%;
+	margin-top: 20px;
+	width: 18%;
+}
+#n80_principal{/*Citas_2Autofill.php*/
+	background: -webkit-linear-gradient(bottom, white 90%, #040652 10%);
+	padding-top: 5px;
+	text-align:center;
+	height: 330px;
+	border:2px solid blue;
+	border-radius:15px;
+	vertical-align: top;
+	position:relative;
+	width: 100%;
+	top:-20px;
+	float: left;
+	display:inline-block;
+}
+#n90{
+	background-color:;
+	position:relative;
+	top:-30px;
+	float: left;
+	display:inline-block;
+	margin-left: 2%;
+	margin-top: 20px;
+	width: 25%;
+}
+#n90_principal{
+	background: -webkit-linear-gradient(bottom, white 90%, #040652 10%);
+	padding-top: 5px;
+	text-align:center;
+	height: 330px;
+	border:2px solid blue;
+	border-radius:15px;
+	vertical-align: top;
+	position:relative;
+	top: -20px;
+	width: 100%;
+	display:inline-block;
+	float: left;
+	margin-left: 0%;
+}
+#n100{
+	background-color:;
+	position:relative;
+	top:-30px;
+	float: left;
+	display:inline-block;
+	margin-left: 2%;
+	margin-top: 20px;
+	width: 18%
+}
+#n100_A{/*Citas_2Autofill_2.php*/
+	background-color:;
+	position:relative;
+	top:-30px;
+	float: left;
+	display:inline-block;
+	margin-left: 2%;
+	margin-top: 20px;
+	width: 18%
+}
+#n100_principal{
+	background: -webkit-linear-gradient(bottom, white 90%, #040652 10%);
+	padding-top: 5px;
+	text-align:center;
+	height: 330px;
+	border:2px solid blue;
+	border-radius:15px;
+	position:relative;
+	top: -20px;
+	display:inline-block;
+	width: 100%;
+	float: left;
+}
+#n100_Historias{/*formato a cuadro de solicitud de cita en HistoriaClinica.php*/
+	background: -webkit-linear-gradient(bottom, white 88%, #040652 13%);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align:center;
+	width: 100%;
+	height: 320px;
+	border:2px solid blue;
+	border-radius:15px;
+	margin-top: -20px;
+}
+#n100_Historias [id="Calendario_CM"]{
+	position: absolute;
+	left: 1070px;
+	bottom:  378px;
+	background-color:;
+}
+#n110{
+	background-color:;
+	position:relative;
+	top:-30px;
+	float: left;
+	display:inline-block;
+	margin-left: 2%;
+	margin-top: 20px;
+	width: 18%;
+}
+#n110 .btn{/*Citas_2Autofill.php*/
+	color:rgba(194, 245, 19,1);
+}
+#n110_principal{
+	background: -webkit-linear-gradient(bottom, white 90%, #040652 10%);
+	padding-top: 5px;
+	padding-left: 5px;
+	text-align:center;
+	height: 330px;
+	border:2px solid blue;
+	border-radius:15px;
+	vertical-align: top;
+	position:relative;
+	top:-20px;
+	display:inline-block;
+	margin-left: 0%;
+	width: 100%;
+	z-index: 2;
+}
+#n110_tapa{/*Citas_2Autofill.php*/
+	background: -webkit-linear-gradient(bottom, #040652 , #040652 );
+	opacity: 0.2;
+	width:100%;
+	height: 76%;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	vertical-align: top;
+	position:absolute;
+	top:18.5%;
+	left: -10px;
+	display:inline-block;
+	margin-left: 10px;
+	z-index: 3;
+}
+#n122{
+	background-color:;
+	width:250px;
+	margin-left:130px;
+	float: right;
+	position: absolute;
+	right: 300px;
+	bottom: 50px;
+}
+#n123{
+	/*background-color: blue;*/
+	margin-left:10px;
+	width: 600px;
+	padding-bottom: 15px;
+}
+/*#n124 p{
+	color: blue;
+	font-size: 14px
+}*/
+#n125{
+	margin-bottom: 20px;
+	margin-left: 24px;
+	padding: 10px;
+	width: 700px;
+	border-radius: 15px;
+}
+#NuevoRegistro_0{
+	background-color:;
+	margin-top: 6%;
+	margin-left: 3%;
+	margin-right: 3%;
+	border-radius: 15px;
+	padding-left: 4%;
+}
+.ocultarMenu{/*Todos los archivos sin login*/
+	background-color: ;
+	/*min-height: 220px;*/
+	/*max-width: 1600px;*/
+	margin:15% auto;
+}
+.ocultarMenu_1{/*Todos los archivos con login*/
+	background-color: ;
+	min-height: 220px;
+	/*max-width: 1600px;
+	margin:10% auto;*/
+}
+.ocultarMenu_3{/*03.php*/
+	background-color: ;
+	margin-top: 10%;
+	margin-bottom: 8%;
+	min-height: 220px;
+}
+#Pacientes_1{
+	background-color: ;
+	margin-left: 30px;
+}
+#Pacientes_3{/*pacientes.php*/
+	background-color:;
+	width: 100%;
+	margin-bottom: -5%;
+}
+#Pacientes_4{/*registro/pacientes.php*/ 
+	background-color:; 
+	margin-top: 0% !important;
+	padding: 0px 40px 5px 20px;
+	width: 100%;
+}
+#perfil{
+	background-color: ;
+	height: 600px;
+}
+#Perfil_1{/*03.php */
+	background-color:;
+	margin-top: 15%;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+#Perfil_2{/*03.php      mostrarPerfilDoctor_Basico.php*/
+	background-color:;
+	width: 45%;
+	margin-right: 3%;
+	margin-top: 3%;
+	float: right;
+	border-top-color: #09204D;  
+	border-top-style: solid; 
+	border-top-width: 1px; 
+	padding-top: 2%;
+}
+#Perfil_3{/*03.php      mostrarPerfilDoctor.php*/
+	background-color:;
+	width: 45%;
+	margin-right: 3%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	float: right;
+	align-items: center;
+	text-align: justify-all;
+	border-top-color: #09204D;  
+	border-top-style: solid; 
+	border-top-width: 1px; 
+	padding-top: 2%;
+}
+#Perfil_2 .Perfil_2a, #Perfil_3 .Perfil_2a{/*03.php      mostrarPerfilDoctor_Basico.php**/
+	background-color: #F4FCFB; 
+	display: block; 
+	font-size: 25px; 
+	margin: auto; 
+	margin-bottom: 2%; 
+	text-align:center; 
+	border-style: none; 
+	font-family:verdana; 
+	color:#09204D;
+}
+#Perfil_00{/*03.php  mostrarPerfilDoctor.php*/
+	background-color:;
+	width: 25%;
+	margin-left:5%;
+	margin-top: 8%;
+	float: left;
+} 
+#Perfil_00 h3{ 
+	margin-left: 20px;
+}
+#Perfil_00_A{/* mostrarPerfilDoctor.php*/
+	background-color:;
+	width: 25%;
+	margin-left:5%;
+	margin-top: 3%;
+	float: left;
+}
+#Perfil_00_A h3{ /* mostrarPerfilDoctor.php*/
+	margin-left: 20px;
+}
+#Perfil_01{/*03.php*/ 
+	background-color:;
+	float: right;
+	width: 50%;
+	height: 130px;
+	margin-top: 2%;
+	margin-left: 0%;
+}
+#Perfil_01A{/* 03.php*/ 
+	background-color:;
+	float: right;
+	width: 50%;
+	margin-left: 0%;
+	margin-top: 0px;
+	height: 130px;
+}
+#Perfil_01B{/*03.php*/ 
+	background-color:;
+	display: block;
+	float: right;
+	width: 50%;
+	height: 130px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+}
+#Perfil_02{/*contenedor del horario del doctor en 03.php*/
+	background-color:;
+	float: right;
+	display: block;
+	width: 50%;
+	margin-top: 4%;
+}
+#Perfil_002{
+	background-color:;
+	display: inline-block;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#Perfil_03{
+	background-color:;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 80px;
+}
+#Perfil_04{/* 03.php*/
+	background-color:;
+	width: 50%;
+	height: 130px;
+	float: right;
+	}
+#Perfil_05{/*03.php  */
+	background-color: ; 
+	width: 100%; 
+	margin-left: 20%;
+	margin: auto; 
+}
+#Perfil_05_A{/*Promo.php*/
+	background-color:; 
+	width: 70%; 
+	margin: auto;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+#Perfil_05_B{/*medicamentosBuscar.php*/
+	background-color: ; 
+	width: 40%; 
+	margin: auto;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+#Perfil_06{/*03.php    MiPerfil.php*/
+	background-color:;
+	display: inline-block;
+	width: 45%;
+}
+#Perfil_06 a{/*03.php    MiPerfil*/
+	color: ;
+	border-radius: 15px;
+	border:0px;
+	padding:4.8px 8px !important;
+	background:#040652;
+	color:#bcbeda;
+	cursor: pointer;
+	height: 25px;
+	font-size:13px;
+}
+#Perfil_06 a:hover{/*03.php    MiPerfil*/
+	background-color: ;
+	font-weight: bold;
+}
+#Perfil_07{/*03.php    medicamentosBuscar.php   Promo_BAsico.php*/
+	background-color: ;
+	display: inline-block;
+	width: 45%;
+	margin:auto;
+}
+#Perfil_07 .botones{/*03.php*/
+	background-color: ;
+	font-size:12px; 
+	padding:0% 20px !important;
+	width: 100px !important;
+	text-align: center;
+}
+#Perfil_08{/* 03.php*/ 
+	background-color:;
+	float: left;
+	width: 50%;
+	margin-left: 0%;
+	margin-top: 0px;
+	height: 130px;
+}
+#Perfil_09{/*Afiliacion.php*/
+	background-color:;
+	display: inline-block;
+	text-align: center;
+	width: 100%;	
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+#Perfil_10{/*planes_I.php  */
+	background-color: ; 
+	width: 100%; 
+	margin-bottom: 5% !important;
+	margin: auto; 
+}
+#Perfil_11{/*medicamentos.php*/
+	background-color: ; 
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	width: 20%; 
+	display: flex;
+}
+#Perfil_12{/*medicamentos.php*/
+	background-color: ; 
+	width: 40%; 
+	display: table-cell;
+	margin:auto;
+	text-align: center;
+}
+#planes{/*Afiliacion.php*/
+    background-color: ;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+#Principal{
+	background-color:;
+	height: 380px;
+	width: 100%;
+}
+#p1{
+	margin:auto;
+	width: 800px;
+}
+#p3, #p5, #p7, #p9{
+	float: left;
+	margin-top: 0px;
+	margin-left: 30px;
+	width: 140px;
+	height: 80px;
+	text-align:center;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+#p4 p, #p6 p, #p8 p, #p10 p, #p12 p{
+	font-size: 15px;
+	letter-spacing: 5px;
+
+}
+#p4{
+	padding: 20 15;
+	border-bottom: 1px solid blue;
+	margin-left: 170px;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	width: 800px;
+	height: 190px;
+}
+#p6{
+	padding: 20 0;
+	border-bottom: 1px solid blue;
+	margin-left: 180px;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	width: 800px;
+	height: 65px;
+}
+ #p8{
+	padding: 20 15;
+	border-bottom: 1px solid blue;
+	margin-left: 170px;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	width: 800px;
+	height: 135px;
+}
+#p10{
+	padding: 20 0;
+	border-bottom: 1px solid blue;
+	margin-left: 180px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 800px;
+	height: 40px;
+}
+#p12{
+	padding: 20 0;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 210px;
+	text-align: center;
+}
+#p12 p{
+	text-align: center;
+}
+#Precio_Consulta{
+	position: relative;
+	top: 35px;
+}
+#Recordar{/*Cancelar.php*/
+	margin-top: 1%;
+	margin-left: -40%;
+}
+#registro_1{/*registro.php */
+	background-color: ;
+	width: 70%;
+	padding-bottom: 1%;
+	padding-top: 0%;
+	margin:auto;
+}
+#registro_3{/*Viajes_3.html    Cancelar.html     MiPerfil.php   Afiliacion.php*/
+	background-color:;
+	border-radius: 15px;
+	padding: 10px;
+	margin: auto;
+	width: 60%;
+	font-size: 14px;
+}
+#registro_3 p{
+	margin-top: 3%;
+	background-color: ;
+	font-size: 13px;
+	text-align: center;
+}
+#Recuperar_01{
+	margin-left: 50px;
+	padding-top: 40px;
+}
+#sesion_3{/*RegistroPacientes.phhp*/
+	background-color: ;
+	float: left;
+	padding-left: 60px;
+	width: 50%;
+	min-height: 300px;
+	overflow:auto;/*crea una barra vertical cuando la tabla es mas alta que el div que la contiene*/
+}
+#sesion_3 a{/*RegistroPacientes.php*/
+	text-decoration-line: none;
+}
+#sesion_2{
+	background-color:;
+	float: left;
+	width: 38%;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	padding-left: 0px;
+	display: inline-block;
+}
+#sesion_5{/*RegistroPacientes_Basico.php*/
+	background-color: ; 
+	width: 30%; 
+	float: right; 
+	margin-right: 10%;
+	margin-top: 0%; 
+}
+#sesion_6{
+	background-color: ; 
+	margin-bottom: 5%; 
+	padding-right: 0%; 
+}
+#sesion_7{/*RegistroPacientes_Basico.php*/
+	background-color:;
+	margin-top: 10%; 
+	margin-bottom: 0%;
+}
+#sesion_8{/*Promo_Xxxxxx.phhp*/
+	background-color: ;
+	min-height: 400px;
+}
+#Tapa_2{
+	background-color: rgba(0,0,0,0.85) ;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+}
+#Turno{
+	margin-top: 30%;
+}
+#verPerfil{/*publicaciones.php*/
+	background-color: ;
+	position: absolute;
+	top:490px;
+	left: 130px;
+	z-index: 2;
+}
+#verDemo{
+	margin-left: 43%; 
+	position: relative;
+	top:-60px; 
+	font-size: 19px;
+	height: 25px;
+	display: block;
+}
+#verDemo:hover{
+	margin-left: 43%; 
+	position: relative;
+	top:-60px; 
+	font-size: 22px;
+	font-weight: bolder;
+	height: 25px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+.a2{/*InicioSesion_Basico     pacienteRegistrado.php  Fechas_Consultas.php*/
+	background-color:;
+	font-size: 13px;
+	height: 25px;
+}
+.a2:hover{/*InicioSesion_Basico     pacienteRegistrado.php*/
+	font-weight: normal;
+}
+.a2a{/*InicioSesion.php    pacienteRegistrado.php  Fechas_Consultas.php*/
+	background-color:;
+	font-size: 13px;
+	font-weight: bold;
+}
+.a2a:hover{/*InicioSesion_Basico     pacienteRegistrado.php  Fechas_Consultas.php*/
+	background-color:#040652;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+.a3{/*pacienteRegistrado.php*/
+	background-color: ;
+    font-size: 16px !important; 
+    font-weight:bolder;
+    color: #040652;
+}
+.a4{/*InicioSesion_Basico.php*/
+	background-color: ;
+    font-size: 13px !important; 
+    font-weight:bolder;
+    color: #040652;
+}
+.A_03{/*03.php*/
+	background-color: #F4FCFB; 
+	display: inline-block; 
+	font-size: 36px; 
+	text-align:left; 
+	border-style: none; 
+	font-family:verdana; 
+	width: 90%; 
+	color:#09204D; 
+	padding-left:7%;
+}
+.A_04{/*03.php*/
+	background-color:#F4FCFB ;
+	display: inline-block; 
+	font-size: 20px;  
+	text-align:left;  
+	border-style: none;  
+	padding-left: 7%; 
+	font-family:verdana; 
+	width: 95%; 
+	color:#09204D;
+}
+.A_05{/*03.php*    MostrarPerfilDoctor.php*/
+	background-color:#F4FCFB ;
+	text-align:center;  
+	font-size: 14px; 
+	margin-top: 2%;
+	border-style: none; 
+	font-family:verdana; 
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+}
+.A_05A{/*03.php*    MostrarPerfilDoctor.php*/
+	background-color:#F4FCFB ;
+	text-align:center;  
+	font-size: 14px; 
+	margin-top: 2%;
+	border-style: none; 
+	font-family:verdana; 
+	display: inline-block; 
+	width: 100%;
+	text-align: center;
+}
+.A_06{/*03.php    mostrarPerfilDoctor.php*/
+	background-color:#F4FCFB ;
+	font-size: 14px; 
+	border-style: none; 
+	font-family:verdana; 
+	margin-top: 0%;
+	text-align: center;
+	width: 90%;
+	overflow: hidden;
+	margin-bottom: 0%;
+}
+.A_07{/*03.php  mostrarPerfilDoctor.php  #F4FCFB   citas_2.php*/
+	background-color:#F4FCFB ;
+	text-align:center; 
+	font-size: 14px;
+	border-style: none; 
+	font-family:verdana; 
+	color:09204D; 
+	width: 100%;
+}
+.A_08{/*03.php  #F4FCFB  mostrarPerfilDoctor.php*/
+	background-color:;
+	text-align:left; 
+	margin-left: 0%;
+	margin-bottom: 2%;
+	padding-left: 0%;
+	padding-top: 1%;
+	font-size: 13px; 
+	border-style: none; 
+	font-family:verdana; 
+	width: 100%;
+}
+.A_09{/*03.php  mostrarPerfilDoctor.php*/
+	background-color: #F4FCFB;
+	margin:auto;
+	display: block;
+	margin-bottom: 3%;
+	padding-left: 0%;
+	padding-top: 0%;
+	font-size: 13px; 
+	border-style: none;
+	line-height: 180%; 
+	font-family:verdana; 
+	width: 95%;
+	text-align: justify;
+	min-height: 100px;
+}
+.A_10{/* #F4FCFB   Precio_Consulta.php*/
+	background-color: ;
+	text-align:center; 
+	margin-left: 0%;
+	margin-top:-3%;
+	margin-bottom: -7%;
+	padding-left: 0%;
+	padding-bottom: -1%;
+	font-size: 15px; 
+	border-style: none; 
+	font-family:verdana; 
+	color:09204D; 
+	width: 100%;
+}
+.activa{
+	color: #F2F9F9;
+	font-weight: bold;
+}
+.Afiliacion_0 fieldset{/*formularios verticales*/
+	background-color:;
+	border-radius: 15px;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 40px;
+	width: 100%;
+	font-size: 14px;
+}
+.Afiliacion_0 input{/*formularios verticales*/
+	background-color: ;
+	margin-bottom: 10px;
+}
+.Afiliacion_0 input[type=file]{/*formularios verticales*/
+	background-color: ;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.Afiliacion_0 input[type=submit]{/*formularios verticales*/
+	background-color: ;
+	margin: auto !important;
+	display: block;
+}
+.Afiliacion_0 label{/*formularios verticales*/
+	background-color: ;
+	font-size: 14px;
+	margin-left: 15px;
+	margin-right: 15px
+	padding: 2px;
+	float: left;
+	width: 45%;
+}
+.Afiliacion_0 select{/*formularios verticales*/
+	background-color:white  ;
+	font-size: 14px;
+	margin-right: 15px
+	padding: 2px;
+	height: 24px;
+	width: 202px !important;
+	margin-bottom: 2%;
+	text-align-last: center;
+}
+.Afiliacion_0 a{/*formularios verticales*/
+	background-color: ;
+	font-size: 13px;
+	text-align: center;
+}
+.Afiliacion_0 p{/*formularios verticales*/
+	background-color: ;
+	font-size: 13px;
+	text-align: center;
+}
+.Afili_2{/*cargarMedicam.php*/
+	background-color:;
+	margin: auto;
+	width: 90%;
+}
+.Afili_3{/*ingresar.php    Cancelar.php   contactenos.php    registroDeCarga.php*/
+	background-color:;
+	margin: auto;
+	width: 35%;
+}
+.afiliacion_10{
+	width: 50%;
+}
+.Afiliacion_11{/*Afiliacion.php   CambiarClave.php*/
+	background-color: ;
+	width: 60%;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	margin: auto; 
+	line-height: 160%;
+	text-align: center;
+}
+.Afiliacion_12{/*Afiliacion.php*/
+	background-color: ;
+	width: 80%;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	margin: 3% auto; 
+	line-height: 160%;
+	text-align: center;
+}
+.afiliado_02{/*Afiliacion.php*/
+	background-color: ;
+}
+.Anamnesis_1{
+	background-color:green ; 
+	width: 100%; 
+	display:table;
+}
+.Anamnesis_2{/*Anamnesis.php*/
+	background-color: ; 
+	margin-bottom: 0%;
+}
+.Anamnesis_2:hover{
+	background-color: rgba(4, 6, 82, 0.1);
+}
+.Anamnesis_3{/*Anamnesis.php*/
+	background-color: ; 
+	float: left;
+	margin-right: 20px; 
+	width: 250px;
+	margin-bottom: -2% !important;
+}
+.Anamnesis_4{/*Anamnesis.php*/
+	background-color: ; 
+	height: 18px;
+	font-size: 15px;
+	width: 80px !important;
+}
+.Anamnesis_5{/*Anamnesis.php*/
+	background-color:;
+	font-size: 17px;
+	font-weight: bold;
+}
+.Anamnesis_6{/*Anamnesis.php*/
+	background-color:;
+	font-size: 15px;
+	margin-left: 0%;
+	margin-top: 0%;
+	width:65%;
+}
+.ancla:before{
+    display: block;
+    content: " ";
+    margin-top: -11%;
+    height: 80px;
+    visibility: hidden;
+}
+.ancla_1{/*directorio.php*/
+    display: block;
+    content: " ";
+    margin-top: -20%;
+    height: 250px;
+    visibility: hidden;
+}
+.ancla_2{
+      display: block;
+      content: " ";
+      margin-top: -25%;
+      height: 150px;
+      visibility: hidden;
+}
+.botones{/*03.php*/
+	color:red;
+	font-size:13px; 
+	width: 90%;
+}
+.buscar_1{
+	border-collapse:collapse;
+}
+.buscar_1:hover{
+	background-color: #bcbeda;
+    cursor: default;
+}
+.buscar_2{
+	line-height: 250%;
+	/*border-bottom-color: #040652;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;*/
+}
+.buscar_3{/*buscarTodosMedicam.php*/
+	background-color: ;
+	display: none;
+}
+.buscar_4{
+	background-color: ;
+	width: 13%;
+}
+.buscar_5{
+	background-color: ;
+	width: 25%;
+}
+.buscar_6{
+	display: none;
+}
+.btn_2{/*Citas_2Autoutofill_2.php*/
+	background-color:;
+	margin-top: 0% !important;
+}
+.btn_3{/*pacient_medicam.php*/
+	margin: 2% auto;
+	background:#040652;
+	color:rgba(194, 245, 19,1);/*#bcbeda;*/
+	text-decoration:none;
+	font-size:13px;
+	width: 100px;
+	padding:4px 8px;
+	text-align:center;
+	border-radius:15px;
+	display: block;
+}
+.btn_3:hover{/*pacient_medicam.php*/
+	color: white;
+}
+.buttonCuatro:hover{/*pacient_medicam.php*/
+	color: white;
+}
+.btn_publicaciones{/*03.php(comentado)     Afiliacion.php*/
+	background:#040652;
+	color: rgba(194, 245, 19,1) !important;
+	border-radius: 15px;
+	border:0px;
+	padding:8px 40px !important;
+	cursor: pointer;
+	height: 25px;
+	font-size:18px;
+}
+.btn_publicaciones:hover{/*03.php     index.html      index.php*/
+	padding:3.8% 9%; 
+	color:white !important;
+}
+.button_principal{
+	background:#C2F0EC  ;
+	color:#040652    ;
+	text-decoration:none;
+	font-size:16px;
+	display:block;
+	margin:auto;
+	padding:5px 10px;
+	width:130px;
+	height: 28px;
+	box-shadow:0px 2px 2px #373c3c;
+	margin-top: 4%;
+	text-align:center;
+	border-radius:15px;
+}
+.button_principal:hover{
+	box-shadow:0px 0px 0px;
+	padding-top:6px;
+	font-weight: bold;
+}
+.button_principal_1{
+	background:#C2F0EC  ;
+	color:#040652    ;
+	text-decoration:none;
+	font-size:16px;
+	display:block;
+	margin:auto;
+	padding:5px 10px;
+	width:130px;
+	height: 28px;
+	box-shadow:0px 2px 2px #373c3c;
+	margin-top: 4%;
+	text-align:center;
+	border-radius:15px;
+}
+.buttonCancelar{/*Cancelar.html*/
+	background:#040652;
+	color:rgba(194, 245, 19,1);
+	text-decoration:none;
+	font-size:15px;
+	width:110px;
+	height: 26px;
+	line-height: 24px;
+	margin: auto;
+	display: block;
+	padding:0px 5px;
+	text-align:center;
+	border-radius:15px;
+}
+.buttonCancelar:hover{/*Cancelar.php*/
+	color:white;
+	cursor: pointer;
+}
+.buttonCuatro{/*promo_basico.php  diagnostico_Bascio_2.php   buscarCitaXxxxx.php  buscarTodosMedicam.php  cargaPaciente_Bascio.php*/
+	background:#040652;
+	color:rgba(194, 245, 19,1);/*#bcbeda;*/
+	text-decoration:none;
+	font-size:14px;
+	width: 100px;
+	margin-left: 0px;
+	padding:4px 8px;
+	text-align:center;
+	border-radius:15px;
+	display: block;
+}
+.buttonCuatro:hover{/*promo_basico.php  diagnostico_Bascio_2.php   buscarCitaXxxxx.php  buscarTodosMedicam.php  cargaPaciente_Bascio.php*/
+	color: white;
+}
+.buttonCuatro_2{/*planes_I.php*/
+	background:#040652;
+	color:rgba(194, 245, 19,1);/*#bcbeda;*/
+	text-decoration:none;
+	font-size:13px;
+	width: 100px;
+	margin-left: 0px;
+	padding:4px 8px;
+	text-align:center;
+	border-radius:15px;
+	display: block;
+}
+.buttonCuatro_2:hover{/*planes_I.php*/
+	color: white;
+}
+.buttonCuatro_3{/*promo_basico.php  diagnostico_Bascio_2.php   buscarCitaXxxxx.php  buscarTodosMedicam.php  cargaPaciente_Bascio.php*/
+	background:#040652;
+	color:rgba(194, 245, 19,1);/*#bcbeda;*/
+	text-decoration:none;
+	font-size:13px;
+	width: 130px;
+	margin-top: 5%;
+	margin-left: 0px;
+	padding:4px 8px;
+	text-align:center;
+	border-radius:15px;
+	display: block;
+}
+.buttonCuatro_3:hover{/*planes_I.php*/
+	color: white;
+}
+.buttonCinco{/*index.html  index.php*/
+	background:#C2F0EC  ;
+	color:#040652    ;
+	text-decoration:none;
+	font-size:15px;
+	width: 120px;
+	margin-left: 0px;
+	padding:5px;
+	box-shadow:0px 5px 5px #373c3c;
+	text-align:center;
+	border-radius:15px;
+	display: block;
+}
+.buttonCinco:hover{
+	box-shadow:0px 0px 0px;
+	padding-top:4px;
+	font-weight: bold;
+}
+.buttonSeis{/*HistoriasClinicas_Xxxxxx.php*/
+	display: none;
+}
+.btnDemo{/*ingresar.php*/
+	display: block; 
+	height:30px !important; 
+	padding:6px 35px !important; 
+	width: 100% !important; 
+	text-align: center; 
+	font-size: 17px!important;
+}
+.btn_verTodo{/*pacient_medicam.php  registroDeCarga.php*/
+	background:#040652;
+	color: rgba(194, 245, 19,1) !important;
+	border-radius: 15px;
+	border:0px;
+	padding:4.8px 8px !important;
+	width: 100px !important;
+	cursor: pointer;
+	display: block;
+	height: 25px;
+	font-size:13px;
+	margin-left: 10%;
+}
+.btn_verTodo:hover{/*pacient_medicam.php*/
+	padding:3.8% 9%; 
+	color:white !important;
+}
+.cabezal{
+	text-align: right;
+	margin-right: 20px;
+	margin-bottom: -28px;
+	font-weight: bold;
+}
+.Calendario{
+	background-color: ;
+	margin-top: -30px;
+}
+.calendario_4{/*CalendarioXxxxx.php*/
+	font-size: 19px; 
+	font-weight: bold; 
+	font-family: Montserrat;
+	padding: 3% ;
+	border-width: 1px;
+	border-style: solid;
+}
+.cambiar_01{
+	background-color: ; 
+	margin-left: 5%; 
+	width: 40%; 
+	padding: 0% 2%; 
+	margin-top: 5%; 
+	float: left;
+}
+.cambiar_02{
+	background-color: ; 
+	width: 40%; 
+	margin-right: 5%; 
+	padding: 0% 2%; 
+	margin-top: 5%; 
+	float: right;
+}
+.capital{
+   float:left;
+   font-size:80px;
+   padding:2px;
+   font-family:times;
+   position: relative;
+   bottom: 15px;margin-right: 5px;
+   line-height:60px;
+   border:1px solid #999999;
+}
+.Carga_4{/*pacient_medicam.php    medicamentosBuscar.php*/
+	background-color:; 
+	margin-top: 1% !important;
+	width:95%; 
+	margin:auto;
+	margin-bottom: 0%;
+}
+.cargarMedic_1{/*cargarMedicam.php*/
+	background-color: ; 
+	position: fixed; 
+	width: 40%; 
+	margin-left:60%; 
+	float: right; 
+	margin-top: 2%;
+}
+.cargarMedic_2{/*cargarMedicam.php*/
+	background-color:; 
+	width: 60%; 
+	margin-top: 5%;
+	margin-bottom:30%;
+}
+.cargarMedic_3{
+	display: none;
+}
+.cargarMedic_4{/*cargarMedicam.php*/
+	background-color: ;
+	margin-top: 15%;
+}
+.cargaPaciente{/*RegistroPacientes.php*/
+	background-color:  ;
+	text-align: left;
+	display: block; 
+	margin-bottom: 2%;
+}
+.cargaPaciente:hover{/*RegistroPacientes.php*/
+	background-color: ;
+	font-weight: bold;
+	text-align: left;
+}
+.cargaPaciente_0{/*RegistroPacientes.php*/
+	background-color: ;
+	text-align: center;
+	display: block; 
+	margin-bottom: 6%;
+	cursor: pointer;
+}
+.cargaPaciente_0:hover{/*RegistroPacientes.php*/
+	background-color: rgba(190, 191, 221, 0.3) ;
+	font-weight: bold;
+	text-align: center;
+}
+.cargarPaciente_1{/*cargarPaciente_Basico.php  */
+	background-color:; 
+	float: left; 
+	width: 20%; 
+	margin-left: 2.5%; 
+	margin-top: 1.6%; 
+	position: fixed;
+}
+.cargarPaciente_2{/*cargarPaciente_Basico.php*/
+	background-color: ;
+	width: 70%;
+	margin-right: 5%;
+	float: right;
+}
+.cargarPaciente_3{/*cargarPaciente_Basico.php*/
+	background-color:; 
+	width: 100%; 
+	margin-top: 3%; 
+	margin-left: -1.5%; 
+	display: flex; 
+	justify-content: center;
+}
+.celdas_th{/*Cancelar.php  */
+	background-color: #F4FCFB; 
+	color:#040652; 
+	font-weight: bold;
+}
+.cie_1{/*cie_10CapituloXXXXXXX.php*/
+	margin:auto; 
+	display: block; 
+}
+.cie_1:hover{/*cie_10CapituloXXXXXXX.php*/
+	background-color: #BCBEDA;
+	color: white;
+}
+.cita_1{
+	background-color: ;
+	width: 90%; 
+	height: 25px; 
+	border-style: none; 
+	margin-top:2%;
+}
+.citas_3{/*Citas_2Autofill_2.php*/
+	background-color: ;
+	position:absolute; 
+	right:10%; 
+	top:42%; 
+	width: 80%;
+}
+.citas_4{/*Citas_2Autofill.php*/
+	background-color:;
+	position:absolute; 
+	right:123%; 
+	top:42%; 
+	width: 80%;
+	text-align-last: center;
+}
+.Clave_3{/*CambiarClave.php*/
+	background-color: ;
+	width: 30%;
+	margin: 4% auto;
+}
+.clave_5{/*CambiarClave.php*/
+	background-color:;
+	display: none;
+}
+.clave_6{/*CambiarClave.php*/
+	background-color: ;
+	display: none;
+}
+.color{
+	color: #040652;
+}
+.comer_1{/*comercio.php*/
+	background-color: ;
+	text-align: center;
+	margin-top: 17%;
+}
+.contacto{/*contactenos.php*/
+	background-color: ;
+	width: 80%;
+	margin: 4% auto;
+}
+.contador{/*contactenos.php*/
+	background-color: ;
+	width: 40px;
+	margin-left: 83%;
+	height: 16px;	
+	line-height: 16px;
+	font-size: 11px;
+}
+.container_13{/*index.html    index.php*/
+	background-color:;
+	text-align: center;
+	width: 70%;
+    display: flex;
+    justify-content:center;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container_13 p{
+	margin-top: 3%;
+}
+.container_13 .n20{/*index.html     index.php*/
+	background: -webkit-linear-gradient(bottom, white 80%, #11105A 20%);
+	border:2px solid #000;
+	border-radius:15px;
+	padding-top: 3px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 15px;
+	margin-bottom: 0%;
+ 	width: 50%;
+ 	float: left;
+	margin: 0px 3%;
+}
+.contenedor_03{/*03.php*/
+	background-color: ; 
+	width: 60%; 
+	float: right; 
+	margin-top: 8%; 
+	margin-right: 5%; 
+}
+.contenedor_03_A{/*mostrarPerfilDoctor_Gratis.php*/
+	background-color: ; 
+	width: 60%; 
+	float: right; 
+	margin-top: 3%; 
+	margin-right: 5%; 
+}
+.contenido{/*contactenos.php   MiPerfil.php*/
+	background-color:;
+	width: 85%;
+	display: block;
+	margin:auto;
+	margin-top: 15px;
+	margin-bottom: 1%;
+	overflow: hidden;
+}
+.detalle_1{/*buscarTodosMedicamOfertados.php*/
+	background-color: ;
+	text-align: center; 
+	width: 7% !important;
+}
+.detalle_2{/*buscarTodosMedicamOfertados.php*/
+	background-color: ;
+	text-align: center; 
+	width: 13% !important;
+}
+.detalle_3{/*buscarTodosMedicamOfertados.php*/
+	text-align: center;
+}
+.detalle_4{/*buscarTodosMedicamOfertados.php*/
+	border-left: 1px solid black;
+	padding-left: 1%;
+}
+.diagnostico_1{/*diagnostico.php   diagnostico_2.php*/
+	background-color: ;
+	min-height:100px; 
+	margin-bottom: 0%; 
+	overflow: hidden;
+	width: 95%;  
+	padding-left: 1%;
+}
+.diagnostico_2{/*diagnostico_Basico.php   diagnostico_Basico_2.php*/
+	background-color:;
+	text-align: justify-all; 
+	margin-top: 2.5%; 
+	margin-left: 1.5%;
+	width: 95%;  
+	display: inline-block;
+	padding-left: 1%;
+}
+.directorio{/*directorio.php*/
+	background-color: ;
+	margin-bottom: 2%;
+}
+.directorio_02{/*directorio.php*/
+	background-color: ;
+	margin-top: 4% !important;
+}
+.directorio_3{
+	background-color: ;
+	font-size: 23px; 
+	margin-left: 5%;
+}
+.Doctores_2{/*Doctores.php*/
+	background-color:;
+	margin-top: 5%;
+}
+.DocAfiliado{/*DoctorAfiliado.php    buscar.php    Afiliacion.php*/
+	background-color:;
+	width: 90%;
+	margin: auto;
+	margin-top: 1%;
+}
+.DocAfiliado_1{/*DoctorAfiliado.php*/
+	background-color:;
+	width: 80%;
+	margin: auto;
+}
+.DocAfiliado_2{/*ingresar.php*/
+	background-color:;
+	width:50%;
+	margin: auto;
+	padding: 6%;
+	text-align: center;
+}
+.edad_2{/*cargarPaciente.php     actualizarDatos.php*/
+	background-color:white; 
+	border-style: solid; 
+	border-color: rgba(4, 6, 82, 0.4); 
+	border-width: 1px; 
+	width:20.3%; 
+	display: inline-block;
+	height: 24px; 
+	text-align: center;
+	line-height: 22px;
+	margin-bottom: 2%; 
+	font-size: 14px;
+}
+.encabezado_03{/*03.php*/
+	background-color:#F4FCFB;
+	margin-top: 1%;
+	height:55px !important; 
+	width: 100%; 
+}
+.encabezadoSesion{/*RegistroPacientes_Basico.php*/
+	background-color: ;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+.encabezadoSesion_1{/*toas las paginas de sesion; verificar si esta clase se puede eliminar e insertar los atributos al h3*/
+	background-color: ;
+	margin-top: 10%;
+	margin-bottom: 3%;
+}
+.encabezadoSesion_2{/*quirurgico.php    medicamentos.php   pacient_medicament.php*/
+	background-color: ;
+	margin-top: 10%;
+	margin-bottom: 0%;
+}
+.especial{/*registroEspecialista*/
+	margin: auto; 
+	display: block; 
+	width: 95%;
+	margin-bottom: 4% !important;
+}
+.etiqueta_1{/*MiPerfil_Basico.php*/
+	background-color:;
+	width: 80px !important;
+	margin-left: 48% !important;
+}
+.etiqueta_1B{/*MiPerfil_Basico.php*/
+	background-color:;
+	width: 400px !important;}
+.etiqueta_2{
+	float: left;
+	width: 160;
+	margin-left: 10px;
+}
+.etiqueta_3{
+	float: left;
+	width: 25px;
+	margin-left: 50px;
+}
+.etiqueta_4{
+	float: left;
+	width: 25px;
+	margin-left: 65;
+}
+.etiqueta_5{/*HistoriasClinicas.php      registroPAcientes.php*/
+	background-color:;
+	float: left;
+	position: relative;
+	width: 20%;
+}
+.etiqueta_6{/*HistoriasClinicas.php      registroPAcientes.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 7.5%;
+	margin-right: -0.5%;
+	width: 200px !important;
+}
+.etiqueta_7{/*aplicado a label de HistoriasClinicas.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 0%;
+	margin-right: -8%;
+	width: 20%;
+}
+.etiqueta_8{/*aplicado a input de HistoriasClinicas.php*/
+	background-color:;
+	margin-right: -1.5%;
+	background-color:;
+	float: left;
+	position: relative;
+	width: 20%;
+}
+.etiqueta_9{/*MiPerfil_Basico.php*/
+	background-color:;
+	margin-left: 10% !important;
+	margin-right: -1.5%;
+	float: left;
+	position: relative;
+	width: 16%;
+}
+.etiqueta_10{/*MiPerfil_Basico.php*/
+	background-color:;
+	margin-left:  -7%;
+	position: relative;
+	width: 20%;
+}
+.etiqueta_11{/*registroPAciente.php    historiasClinicas_Basico.php*/
+	background-color: ;
+	margin-left: 0%;
+	width: 93%;
+	font-size: 15px;
+}
+.etiqueta_12{/*aplicado a label de HistoriasClinicas.php*/
+	background-color:;
+	float: left;
+	position: relative;
+	width: 60%;
+	margin-top: 2%;
+	display: block;
+}
+.etiqueta_15{/*registroPaciente.php*/
+	background-color: ;
+	color:rgba(194, 245, 19,1) !important ; 
+	margin: 5% 40%;
+}
+.etiqueta_15:hover{/*registroPaciente.php*/
+	color:white  !important ; 
+}
+.etiqueta_18{
+	background-color: ;
+	margin-left: 0%;
+	width: 93%;
+	height: 60px;
+	font-size: 12px;
+}
+.etiqueta_19{/* diagnostico.php     HistoriClinicas.php  diagnostico2.php  actualizarDatos.php*/
+	background-color: ;
+	float: left; 
+	width: 25%;
+	margin-left: 15%;
+}
+.etiqueta_20{/*registroPAcientes.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 6.5%;
+	margin-right: -0.5%;
+	width: 200px !important;
+}
+.etiqueta_21{/*InicioSesion_Basico.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 10%;
+	width: 8%;
+}
+.etiqueta_22{/*InicioSesion_Basico.php*/
+	background-color:;
+	display: inline-block;
+	width: 10%;
+}
+.etiqueta_23{/*registroPaciente.php   cargarPaciente_Basico.php*/
+	background-color:;
+	float: left;
+	position: relative;
+	margin-bottom: 2%;
+	width: 45%;
+}
+.etiqueta_24{/*registroPaciente.php    actualizarDatos_Xxxxxx*/	
+	background-color:white;
+	width: 45%;
+	margin-bottom: 2%;
+	text-align-last: center;
+}
+.etiqueta_25{/*registroPaciente.php   actualizarDatos_Basico.php*/
+	background-color:;
+	float: left;
+	position: relative;
+	margin-bottom: 2%;
+	width: 50%;
+}
+.etiqueta_26{/*  actualizarDatos_Xxxxxx.php   MiPerfil_Gratis.php*/
+	background-color:white;
+	position: relative;
+	margin-bottom: 3%;
+	width: 45% !important;
+}
+.etiqueta_34{/*RegistroPacientes_Xxxxxxx.php*/
+	background-color:;
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+.etiqueta_35{/*RegistroPacientes_Xxxxxxx.php*/
+	background-color:;
+	display: block;
+	width: 30%;
+	margin: auto;
+	margin-bottom: 3%;
+}
+.Afiliacion_4 .etiqueta_26{/*MiPerfil_Basico.php*/	
+	background-color:;
+	width: 50% !important;
+	margin-bottom: 2%;
+}
+.etiqueta_27{/*pacient_medicam.php    medicamentos.php*/
+	background-color:;
+	display: inline-block;
+	margin-left: 20%;
+	width: 8%;
+}
+.etiqueta_28{/*pacient_medicam.php*/
+	background-color:;
+	display: inline-block;
+	width: 10%;
+}
+.etiqueta_29{/*InicioSesion_Basico.php*/
+	background:#040652;
+	display: inline-block;
+	color: rgba(194, 245, 19,1) !important;
+	border-radius: 15px;
+	border:0px;
+	padding:4.8px 8px !important;
+	width: 80px !important;
+	cursor: pointer;
+	height: 25px;
+	font-size:13px;
+	margin-left: 1%;
+}
+.etiqueta_29:hover{/*pacient_medicam.php*/
+	padding:3.8% 9%; 
+	color:white !important;
+}
+.etiqueta_30{/*HistoriasClinicas_Basico.php*/
+	background-color: ;
+	width:44% !important;
+}
+.etiqueta_31{/*HistoriasClinicas_Basico.php*/
+	background-color: ;
+	width:44% !important;
+	margin-left: 4%;
+}
+.etiqueta_32{/*MiPerfil_Basico.php*/
+	background-color:;
+	margin-bottom:2%;
+	font-size: 14px !important;
+	text-align-last: center;
+	height:24px;
+	width: 49%;
+}
+.etiqueta_33{/*CambiarClave.php*/
+	background-color:;
+	margin-left:15%;
+	margin-right: 10%;
+	margin-bottom:2%;
+	font-size: 14px !important;
+}
+.etiqueta_34{/*CambiarClave.php*/
+	background-color:;
+	margin:auto;
+	margin-bottom:2%;
+	margin-top: 3%;
+	font-size: 14px !important;
+}
+.fecha{
+	background-color: ;
+	width: 93%; 
+	z-index: 2; 
+	position: absolute; 
+	top: 15%; 
+	height: 20px; 
+	font-size: 14px;
+}
+.fixed{/*fija el abecedario en directorio.php es agregada por medio de menu.js*/
+	background-color: red;
+	position:fixed;
+	top: -12%;
+	padding: 4% 0% 3% 0%;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #040652;
+	background-color: #F4FCFB;
+	left:33px;
+	transition-duration: 1s;
+}
+.fixed_1{/*fija el header.*/
+	background-color:#F4FCFB;
+	position:fixed;
+	top: 0%;
+	width: 100%;
+	padding-bottom: 1%;
+	margin-bottom: 5%;
+}
+.fixed_2{/*fija el calendario dentro de la sesion de doctor en HistoriasClinicas.php*/
+	position:fixed;
+	top: 15%;
+	width: 100%;
+	background-color: #F4FCFB;
+	padding-bottom: 1.5%;
+	margin-left: 75%;
+}
+.grid{/*HistoriasCLinicas_Xxxxx.php*/
+	display: none;
+}
+.imagen{/*03.php*/
+	width: 300px; 
+	height: 300px;
+	object-fit:contain ;/* deseado cover */
+	filter: brightness(110%);
+	border-radius: 15px;
+}
+.imagen_1{/*Proposito.php*/
+	width: 45%; 
+	object-fit:contain ;/* deseado cover */
+	filter: brightness(110%);
+	float: right;
+	margin: 0% 4% 6% 4%;
+}
+.imagen_3{/*Proposito.php*/
+	background-color: ;
+	width: 45%; 
+	object-fit:contain ;/* deseado es el valor cover */
+	filter: brightness(110%);
+	float: right;
+	margin: -3% 4% 0% 4%;
+}
+.index_4{
+	background-color: ;
+	display: none;
+}
+.usuarioDoctor{/*paginas login - texto nombre del especialista*/
+	display: inline-block; 
+	font-size: 15px;  
+	height: 12px; 
+	text-align:right; 
+	background-color: #F4FCFB; 
+	border-style: none; 
+	font-family:verdana; 
+	width: 600px; 
+	color:white;
+	float:right;
+	margin-right: 5%;
+}
+.historia_1{/*HistoriasClinicas.php   Anamnesis.php*/
+	background-color:; 
+	float: left; 
+	width: 25%; 
+	margin-left: 2.5% !important; 
+	margin-top: 1%; 
+	position: fixed;
+}
+.historia_2{/*HistoriaClinica_Xxxxxxxx.php*/
+	background-color:;
+	width: 95%;
+	margin-top: 20px;
+	margin-left: 0%;
+	border-radius: 15px;
+	padding-left: 4%;
+	padding-bottom:2% ;
+}
+.historia_2 input{
+	margin-bottom: 10px;
+	width: 20%;
+}
+.historia_3{/*HistoriaClinica.php   Anamnesis.php*/
+	background-color:; 
+	width: 65%; 
+	float: right; 
+	margin-right: 4%; 
+	margin-bottom: 5%;  
+	position: relative; 
+	top: 5%;
+}
+.historia_3 input{/*HistoriaClinica.php   Anamnesis.php*/
+	margin-bottom: 10px;
+	width: 20%;
+}
+.iconoFlecha{/*HistoriasClinicas_Xxxxxxx.php*/
+	display: none;
+}
+.ind{
+	margin-top: 8%;
+}
+.grid_3{
+	margin-top: 10px;
+}
+.grid_1{
+	background-color:;
+	margin: auto;
+	margin-top: 10px;
+}
+.grid_1 a[href="Viajes_22.html"]{
+	margin-left: 265px;
+}
+.grid_3 a[href="Viajes_7.html"]{
+	margin-right: 12px;
+}
+.grid_3 a[href="Viajes_3.html"]{
+	margin-right: 24px;
+}
+.grid_6 a{
+	background:#330000;
+	color:#EEF400;
+	text-decoration:none;
+	font-family: verdana;
+	font-size:16px;
+	display:block;
+	position: relative;
+	margin-right: 150px;
+	margin-left: auto;
+	padding:5px 10px;
+	width:160px;
+	box-shadow:0px 5px 5px #373c3c;
+	text-align:center;
+	border-radius:15px;
+}
+.grid_9 a{
+	background: #040652;
+	margin-right: -20px;
+}
+.iconoFijo{/*HistoriaClinica_Basica.php#F4FCFB*/
+	display: none;
+}
+.index_1{/* index.php */
+	background-color:rgba(194, 245, 19,0); 
+	font-family:'courier'; 
+	text-align: center; 
+	color:#040652;	
+	letter-spacing:0vw; 
+	cursor: pointer; 
+	font-size: 30px; 
+	width: 40%; 
+	position: absolute; 
+	top:5%; 
+	left: 11.5%;
+}
+.index_2{ 
+	display: none;
+}
+.Inicio_0{
+	text-align: center;
+	padding: 0 15%;
+	width: 100%;
+	color:  #000F2E;
+	background-color:;
+	margin-bottom: 4%;
+	font-weight: bolder;
+	font-family: 'courier';
+	font-size:2vw;
+	text-align: center;
+}
+.Inicio_1{/*registroDeCarga.php  medicamentosBuscar.php */
+	background-color: ;
+	font-size:20px;
+	width: 80%;
+	text-align: center;
+	margin: 2% auto;
+} 
+.Inicio_2{/*03.php   registro.php*/
+	background-color:#BCBEDA; 
+	color: #040652;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	border-radius: 15px;
+	text-align:center;
+	width: 80%;
+	margin: auto;
+}
+.Inicio_3{/*03.php*/
+	background-color:; 
+	color: #040652;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	text-align:left;
+}
+.Inicio_4{/* index.php */
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;  
+	display: block;
+	font-size: 23px; 
+	width: 36%; 
+	margin-bottom: -70px;
+	position: absolute; 
+	top: 53%;
+	left: 63%;
+}
+.Inicio_4:hover{
+	font-weight: bolder;
+}
+.Inicio_5{/*DoctorAfiliado.php */
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-left: auto;  
+	margin-right: auto;
+	margin-bottom: 2%;
+	text-decoration: none; 
+ 	font-size: 25px; 
+	display: block;
+}
+.Inicio_5:hover{/*DoctorAfiliado.php*/
+	font-weight: bold;
+}
+.Inicio_6{/*pacientes.php    registroPaciente.php */
+	background-color: ;
+	display: block;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	width: 100%;
+}
+.Inicio_7{/*proposito.php   */
+	background-color:; 
+	font-size:19px;
+	line-height: 160%;
+	text-align:justify;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2%;
+}
+.Inicio_8{/*registroPacientes.php   Afiliacion.php    medicamentos.php*/
+	background-color:; 
+	font-size:20px;
+	text-align:center;
+	width: 60%;
+	margin: auto;
+}
+.Inicio_9{/*tablaFechaAntecedentes_Basico.php*/
+	background-color:; 
+	font-family: 'Raleway', sans-serif;
+	font-size:15px;
+	text-align:center;
+	width: 80%;
+	margin-left: 0%;
+	margin-bottom: 1%;
+}
+.Inicio_10{/*pacientes.php */
+	background-color: ;
+	display: block;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+	font-size: 25px;
+	width: 100%;
+}
+.Inicio_11{/*DoctorAfiliado.php   pacient_medicam.php*/
+	background-color:; 
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	font-size:15px;
+	text-align: center;
+	margin-top: 1%;
+}
+.Inicio_12{/*medicamentosBuscar.php */
+	background-color: ;
+	font-size:22px;
+	display: inline-block;
+}
+.Inicio_12:hover{/*medicamentosBuscar.php */
+	background-color: ;
+	font-weight: bold;
+	cursor: pointer;
+}
+.Inicio_13{/*planes.php */
+	background-color: ;
+	text-align: center;
+	margin:auto;
+	margin-bottom: 1%;
+	line-height: 40px;
+ 	font-size: 25px; 
+ 	width: 80%;
+}
+.Inicio_14{/*Doctores.php  anuncio.php*/
+	background-color: ;
+	display: block;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	width: 100%;
+}
+.Inicio_15{/*pacienteRegistrado.php   InicioSesion_Xxxxxxx.php   Fechas_Consultas.php*/
+	background-color:rgba(169, 50, 38, 1);
+	color: white;
+	margin: auto;
+	width: 100% !important;
+	text-align: center;
+}
+.Inicio_15_A{/*pacienteRegistrado.php   InicioSesion_Xxxxxxx.php*/
+	background-color: rgba(169, 50, 38, 1) ;
+	width: 100% !important;
+	height: 23px;
+	font-size: 14px;
+	line-height: 23px;
+	color: white;
+	text-align: center;
+}
+.Inicio_16{/*Afiliacion.php*/
+	background-color: ;
+	margin-top: 2% !important;
+	margin: auto;
+}
+.Inicio_17{/*index.php*/
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	text-align: center;
+	margin-top: -3% !important;
+	margin-bottom: 6% !important;
+	margin-left: auto;  
+	margin-right: auto;
+}
+.Inicio_18{/*directorio.php*/
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	font-size:25px;
+	color: #C7CFE4;
+	text-align: center;
+	margin-top: 10%;
+}
+.Inicio_19{/*directorio.php*/
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	font-size:30px;
+	font-weight: bold;
+	color: #C7CFE4;
+	letter-spacing: 4px;
+	text-align: center;
+	margin-top: 3%;
+}
+.Inicio_20{/*directorio.php*/
+	background-color:  #F4FCFB; 
+	display: block; 
+	margin: auto; 
+	width:200px; 
+	font-size: 18px; 
+	text-align-last: center;
+}
+.Inicio_21{/*Afiliacion.php*/
+	background-color: ; 
+	width:100%; 
+	font-size: 12px; 
+}
+.Inicio_21A{/*medicamentosBuscar.php*/
+	background-color: ; 
+	width:80%; 
+	font-size: 13px; 
+	text-align: center; 
+	margin: 3% auto; 
+}
+.Inicio_22{/*proposito.php   */
+	background-color:; 
+	font-size:19px;
+	line-height: 160%;
+	text-align:center;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2%;
+}
+.Inicio_23{/*ingresar.php    registroDeOferta.php*/
+	background-color: ;
+	color:#040652;  
+	display: block;
+	width: 100%; 
+	font-size: 15px !important; 
+	font-weight: bold;  
+	text-align: center; 
+	margin-top: 3%;
+}
+.Inicio_24{/*medicamentos.php*/
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;  
+	display: block;
+	font-size: 20px; 
+	margin-bottom: -50px;
+}
+.Inicio_24:hover{/*medicamentos.php*/
+	/*APLICA*/
+	color: white;
+	background-color: rgba(4, 6, 82, 0.1);
+}
+.Inicio_25{/*texto de "Afiliese aqui" en Beneficios.html texto escale su consultas en index.php */
+	background-color: red;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;  
+	display: block;
+	font-size: 29px; 
+	margin-bottom: -70px;
+	position: absolute; 
+	top: 70%;
+	left: 40%;
+}
+.Inicio_26{/*texto de "Afiliese aqui" en Beneficios.html texto escale su consultas en index.php */
+	background-color: red;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;  
+	display: block;
+	font-size: 29px;  
+	margin-bottom: -70px;
+	position: absolute; 
+	top: 90%;
+	left: 70%;
+}
+.Inicio_27{/* medicamentos.php */
+	background-color: ;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;  
+	font-size: 30px; 
+	line-height: 150%;
+	width: 40%; 
+	margin-bottom: -70px;
+	position: absolute; 
+	top: 120%;
+	left: 44%;
+}
+.imagen_Div{/*03.php*/
+	background-color: ;
+	margin-left: 0%;
+	margin-top: -10%;
+	margin-bottom: -6%;
+}
+.linea{/* buscarTodosMedicamOfertados.php*/
+	background-color: #040652; 
+	margin-bottom: 5%; 
+	height: 1px; 
+	margin-top: 3%; 
+}
+.linea_1{/*pacient_medicam.php*/
+	 background-color: #040652; 
+	 margin-bottom: 2%; 
+	 margin-top: 2%; 
+}
+.linea_2{/*medicamentos.php*/
+	 background-color: #040652; 
+	 margin-bottom: 4%; 
+	 margin-top: 4%; 
+}
+.listaMostrar{
+	display: none;
+}
+.main{
+	background-color:;
+	width: 100%;
+	height:50%;
+	padding-left: 12%;
+}
+.marcador{/*MiPerfil_Basico.php*/ 
+	background-color: ;
+	line-height: 30px;
+	display: inline-block;
+	width: 100%;
+	font-size: 16px !important;
+}
+.marcador:hover{/*MiPerfil_Basico.php*/ 
+	background-color: #BCBEDA;
+	color:white;
+}
+.medio{/* Citas_2Autofill.php      CItas_2.php*/
+	display: inline-block;
+	color: white;
+}
+.medio_4{/*   Citas_2Autofill_2.php*/
+	background-color: ;
+	display: block;
+	margin-top: 2%;
+}
+.medio_4A{/*   Citas_2Autofill_2.php*/
+	background-color: ;
+	display: block;
+	margin-top: 9%;
+}
+.medio_5{/*   Citas_2Autofill_2.php*/
+	background-color: ;
+	margin-top: 2%;
+}
+.mH_1{
+	font-weight: normal;
+	 font-size: 13px;
+}
+.medicam{/*medicamentos.php*/
+	width: 70%;
+	margin-top: 2%;
+	margin-bottom: 5%
+}
+.medicam_2{/*medicmaentosBuscar.php*/
+	background-color: ; 
+	width: 30%;
+	margin: auto; 
+	justify-content: space-between; 
+	display: flex;	
+}
+.medicina_01{/*medicamentos.php*/
+	background-color: ;
+	display: ;
+	margin-bottom: 2%;
+}
+.menu{
+	background-color:;
+	width: 25%;
+	height: 50%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 0%;
+	position: fixed;
+}
+.menu_Meses{/*Citas_2Autofill.php*/
+	background-color:; 
+	margin-left: 4%; 
+	margin-bottom: 3%; 
+	width: 92%; 
+	text-align: center; 
+	border-style: solid;
+	border-width: 1px;
+}
+.menuResponsive ul{/*todas las paginas*/
+	background-color: #BCBEDA;
+	border-bottom-color: #040652;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	width: 100%;
+	margin:auto;
+	list-style: none;
+	display: flex;
+}
+.menuResponsive li{/*proposito*/
+	flex-grow: 1;/*distribuye proporcionalmente los elementos internos en el eje horizontal, es necesario que el elemento padre tenga la propiedad display con el valor flex*/
+}
+.menuResponsive li a{
+	background-color: ;
+	display: block;
+	width: 60%;
+	margin: auto;
+	font-size: 15px;
+	text-align: center;
+	padding:1.5% 0%;
+}
+.menuResponsive li a:hover{
+	background-color: ;
+	color: white;
+}
+.menuResponsive_2{
+	display: none;
+}
+.menuResponsiveIndex ul{/*index.php */
+	background-color: ;
+	border-bottom-color: #040652;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	width: 100%;
+	margin:auto;
+	list-style: none;
+	display: flex;
+}
+.menuResponsiveIndex li{/*index.php*/
+	background-color:;
+	flex-grow: 1;/*distribuye proporcionalmente los elementos internos en el eje horizontal, es necesario que el elemento padre tenga la propiedad display con el valor flex*/
+}
+.menuResponsiveIndex li a{
+	background-color: ;
+	display: block;
+	width: 60%;
+	margin: auto;
+	font-size: 15px;
+	text-align: center;
+	padding:1.5% 0%;
+}
+.modal{
+	width: 100%;
+	height: 190%;
+	background-color: rgba(0,0,0,0.65);
+	position: absolute;
+	padding-top: 5%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+
+	/*Todas las reglas de animación no funcionan bien en Chrome desde android*/
+	/*animation: modal 1s;tiempo que tarda en formarse la animacion*/
+	/*animation-delay: 0.5s;tiempo que tarda en aparecer la animacion*/
+	/*animation-fill-mode: forwards;la animacion se queda fija*/
+	/*visibility: hidden;
+	opacity: 0;*/
+}
+.modalFondo{/*index.php*/
+	background-color: ;
+	position: fixed;
+	width:100%
+}
+.mostrarTabla{
+	background-color:#F4FCFB; 
+	width: 70%; 
+	height: 530px; 
+	margin-left: 30%; 
+	margin-top: 1%; 
+	position: absolute;  
+	display: none;
+	z-index: 100;
+}
+.n41{
+	background:#bcbeda;
+	border-bottom-color: #040652;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	width: 100%;
+	height: 27px;
+    display: flex;
+    justify-content:center;
+}
+.n42{/*index.html  index.php*/
+	background:;
+	width: 100%;
+    display: flex;
+    justify-content:center;
+    margin-bottom:5%;	
+}
+.n44{/*Contenedor de enlaces en barra de menu del area de usuarios regisrados*/
+	background-color:;
+	text-align: center;
+    width:15%;
+    margin: 0px 10px;
+    padding:0.4% 0%;
+    display: flex;
+    justify-content: center;
+}
+.n44 a:hover{/*enlaces en barra de menu del area de usuarios regisrados*/
+	background-color: ;
+	color: white;
+}
+.n124{
+	background-color:;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	padding: 10px;
+	width: 90%;
+	border-radius: 15px;
+}
+.n125{
+	background-color: ;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	padding: 10px 0px 10px 10px;
+	width: 450px;
+	border-radius: 15px;
+}
+.n126{
+	background:;
+	border-bottom-color: ;
+	border-bottom-style: ;
+	border-bottom-width: ;
+	width: 100%;
+	height: 25%;
+    display: flex;
+    justify-content:center;
+}
+.negritas{
+	font-weight: bold;
+}
+.noticia_1{
+	background-color: ; 
+	padding: 1% 2%; 
+	margin-right: 2%; 
+	margin-bottom: 0%; 
+	margin-left: 52%; 
+	text-align: justify-all;
+}
+.nuevoPaciente{/*HistoriasClinicas.php*/
+	background-color: ;
+	margin-bottom: 1%;
+	display: block;
+	font-size: 15px;
+	height: 32px;
+}
+.nuevoPaciente:hover{/*HistoriasClinicas_Xxxxxxxx.php.php */
+	background-color:#BCBEDA; 
+	color: white;
+	font-weight: bolder;
+	height: 32px;
+}
+.nuevoPaciente_1{/*HistoriasClinicas_Xxxxxxxxx.php   */
+	color: #FE0202;/*rojo*/
+	margin-bottom: 1%;
+	display: block;
+	font-size: 15px;
+	height: 32px;
+}
+.nuevoPaciente_2{/*HistoriasClinicas.php  */
+	color: #FE0202;/*rojo*/
+	margin-bottom: 1%;
+	display: block;
+	font-size: 15px;
+	height: 32px;
+}
+.nuevoPaciente_2:hover{/*HistoriasClinicas_Basica.php #BCBEDA*/
+	background-color:; 
+	color: white;
+}
+.obligatorio{/* Afiliacion.php     registroPaciente.php*/
+	background-color: ;
+	font-size: 15px;
+	color: #040652;
+	vertical-align: top;
+	display: inline-block;
+}
+.ocultar{
+	display: none;
+}
+.ocultarCelda{/* RegistroPaciente_Gratis.php*/
+	background-color: ;
+	width:13%; 
+}
+.opcion_2{/*InicioSesion_Basico.php*/
+	background-color: #C40614; 
+	line-height: 10px; 
+	text-align: center; 
+	color: white;
+}
+.paciente_1{
+	background-color:;
+	margin-left: 20px !important;
+}
+.paciente{/*RegistroPacientes_Xxxxxx.php*/
+	color: ;
+	font-size: 13px !important;
+}
+.Pacientes_2{/*pacientes.php     Promo_Basico.php*/
+	background-color: ;
+	margin-left: 0px;
+	margin-bottom: 5%;
+	margin-top: 10%;
+	widows: 20%;
+}
+.Pacientes_3{/*recibePaciente.php  pacientes.php*/
+	background-color:;
+	margin-top: 4%;
+	margin-bottom: 8%;
+}
+.Pacientes_3 a{/*recibePaciente.php*/
+	background-color: ;
+	margin-top: 40% !important;
+	margin-left: 47%;
+	margin-bottom:30% !important;
+}
+.Pacientes_3 p, .Pacientes_3 b{/*recibePaciente.php*/
+	background-color:;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	width: 100%;
+	display: block;
+}
+.Pacientes_4{/*pacientes.php */
+	background-color: ;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+.PacientesRegistrados_2{/*pacientesRegistrados.php*/
+	margin-left: 0px;
+	margin-bottom: 10%;
+}
+.PacientesRegistrados_1{/*pacientesRegistrados.php*/
+	background-color: ;
+	margin:10% auto; 
+	font-size: 20px;
+	font-family: Montserrat; 
+	font-weight: lighter; 
+	width: 65%; 
+	text-align: center;
+}
+.p_2{/*footer*/
+	/*background-color: #E95B5B;*/
+	font-family: Montserrat;
+	font-size: 10px;
+}
+.p_2A{/*footer*/
+	/*background-color: #E95B5B;*/
+	font-family: Montserrat;
+	font-size: 10px;
+}
+.p_3{
+	font-size: 15px; 
+	text-align: center;
+}
+.p_4{
+	padding: 10 15 10 15;
+}
+.perfil_1{
+	float: right !important; 
+	width: 90% !important; 
+	text-align: left !important;
+}
+.perfil_1:hover{
+	font-weight: bolder;
+	cursor: pointer;
+}
+.Perfil_2a{/*03.php      mostrarPerfilDoctor_Basico.php**/
+	background-color: #BCBEDA !important; 
+	display: block; 
+	font-size: 25px;
+	line-height: 25px; 
+	margin: auto; 
+	margin-bottom: 2%; 
+	text-align:center; 
+	width: 80%;
+	border-style: none; 
+	font-family:verdana; 
+	color:#09204D;
+	border-radius: 15px;
+}
+.PrincipalDoctor{/*RegistroPacientes_Basico.php*/
+	background-color: ;
+	margin-bottom: 0% !important;
+}
+.Principal .Inicio_1{/*pacient_medicam.php*/
+	background-color: ;
+	margin-bottom: 4%;
+}
+.Principal_2{/*03_2.php*/
+	background-color: ;
+	margin-top: 10% !important;
+}
+.Principal_3{/*buscar.php*/
+	background-color:;
+	margin-top: -5% !important;	
+	min-height: 100vh
+}
+.Principal_4{/*medicamentos.php*/
+	background-color:;
+	margin-top: -5% !important;	
+}
+.Principal_5{/*Citas_2Autofill.php*/
+	background-color: ; 
+	min-height: 100%;
+}
+.promo{/*Promo.php*/
+	margin: auto; 
+	font-size: 20px; 
+	font-family: Montserrat; 
+	font-weight: lighter; 
+	width: 65%; 
+	line-height: 160%; 
+	text-align: center;
+}
+.promo_2{/*Promo.php*/
+/*	background-color:;
+	margin-top: 5%;
+	margin-bottom: -4% !important;*/
+}
+.publicaciones_02{/*mostrarPublicaciones.php*/
+	background-color: ; 
+	width: 60%; 
+	float: right; 
+	margin-right: 5%; 
+	margin-top: 5%;"
+}
+.quirurgico_1{/*pacient_quirurgico.php*/
+	width: 30%; 
+	text-align-last: center;
+	margin: auto; 
+	display: block;
+}
+.quirurgico_2{/*cargarMedicament.php*/
+	background-color: ;
+	width: 90% !important; 
+	text-align-last: center;
+	margin: auto; 
+	font-size: 14px !important;
+	display: block;
+}
+.reposicion{/*directorio.php*/
+    padding-top: 300px;
+    transition-duration: 1.5s;
+}
+.RecibeClave{/*recibe_CambiarClave.php*/
+	background-color: ;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+.recordar{/*Cancelar.php*/
+	background-color:;
+	display: inline-block;
+	width: 200%;
+	font-size: 13px; 
+	margin-left: 10%;
+	font-family:verdana;
+	text-align: center;
+}
+.registro_01{/*actualizarDatos.php*/
+	background-color:white ;
+	width: 20%; 
+	margin-top: 0.5%; 
+	margin-bottom: 1.5%;
+	text-align-last: center;
+}
+.registro_2{/*registro.php*/
+	width: 55%; 
+	margin: auto; 
+	display: block;
+}
+.registro_1{/*registroPaciente.php*/
+    background-color: ; 
+    display: block; 
+    margin:auto;
+    font-size: 12px; 
+    text-align: center;
+    width: 70%;
+    margin-bottom: 5%;
+}
+.registro_3{/*registroPaciente.php*/
+	background-color: ; 
+	width: 45%; 
+	float: left;
+}
+.registro_4{/*registroPaciente.php*/
+	background-color: ;
+	width: 45%; 
+	float: right; 
+	margin-right: 6.5%;
+}
+.salir{/*directorio.php*/
+	color: yellow; 
+	display: block; 
+	font-size: 20px; 
+	margin: auto;
+	text-align: center; 
+	margin-top: 15%;
+}
+.sinRegistros{/*directorio.php*/
+	margin-left: 5%;
+	color: #040652;
+	font-size:13px;
+}
+.sesion_0{/* medicamentos.php*/
+	background-color: ;
+	margin-top: 4%;
+	margin-bottom: -8% ; 
+}
+.sesion_1{/*InicioSesion_Basico.php     pacienteRegistrado.php */
+	background-color:;
+	float: left;
+	margin-left: 2%;
+	margin-top: 0.5%;
+	padding: 0px;
+	width: 48%;
+}
+.sesion_1A{/*pedidoProveedores.php  */
+	background-color:;
+	margin: auto;
+	margin-top: 0.5%;
+	padding: 0px;
+	width: 93%;
+}
+.sesion_2{/*InicioSesion_Basico.php     pacienteRegistrado.php*/
+	background-color:;
+	float: right;
+	width: 40%;
+	margin-left: 50px;
+	display: inline-block;
+}
+.sesion_3{/*InicioSesion_Basico.php  */
+	display: ;
+	background-color: ;
+	text-align: center;
+	margin-top: 2%;
+}
+.sesion_4{/*medicamentos.php*/
+	background-color: ;
+	width: 80%; 
+	margin: auto;  
+	margin-bottom: 0%; 
+	padding-top: 1%; 
+	padding-bottom: 1%;
+}
+.sesion_5{/*buscar.php */
+	background-color: ;
+	margin-top: 5% !important;
+	margin-bottom: 5% !important;
+	width: 40%;
+	margin: auto;
+}
+.sesion_5 .btn_3{
+	background-color: ;
+	margin-top: 10%;
+}
+.sesion_6{/*buscarTodosMedicamOfertados.php */
+	background-color:;
+	margin:auto ;
+	padding: 0px;
+	width: 90%;
+}
+.sesion_7{/*buscarTodosMedicamOfertados.php */
+	background-color: ; 
+	float: right; 
+	margin-right: 5%;
+}
+.span_03{/*registroEspecialista.php*/
+	background-color: ;
+	display: block;
+	margin-bottom: 4%;
+	width: 100%;
+	text-align: center;
+}
+.submitContacto{/*contactenos.php*/
+	margin-left: 35%;
+}
+.tabla_1{/*InicioSesion_Basico.php   pacienteRegistrado.php  pacienteTratamiento.php    buscarCitaXxxxxxxx.php*/
+	background-color: ;
+	width: 100%;
+	text-align: center; 
+	border-collapse: collapse; 
+}
+.tabla_1A{/*InicioSesion_Basico.php   pacienteRegistrado.php  pacienteTratamiento.php    buscarCitaXxxxxxxx.php*/
+	background-color: ;
+	width: 100%;
+	text-align: center; 
+	border-collapse: collapse; 
+}
+.tabla_1A .textoCelda_4{
+	background-color: ;
+	width: 14% !important;
+}
+.tabla_2{/*RegistroPacientes_Basico.php*/
+	background-color: ; 
+	width:100%; 
+}
+.tabla_2A{/*RegistroPacientes.php*/
+	background-color: ;
+	width: 30%;
+	padding-left: 5%;
+}
+.tabla_2B{/*RegistroPacientes_Basico.php*/
+	background-color: ;
+	width: 20%;
+	padding-left: 5%;
+} 
+.tabla_5{/*pacienteTratamiento.php*/
+	border-bottom-color: #040652; 
+	border-bottom-style: solid; 
+	border-bottom-width: 1px;
+}
+.tablaOfertados{/*buscarTodosMedicamOfertados.php*/
+	background-color: ;
+	border-collapse: collapse; 
+	width: 100%;
+	margin: auto;
+}
+.tablaTexto{/*Afiliacion.php*/
+    background-color: ;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;  
+    display: block;
+}
+.tablaTexto_1{/*Afiliacion.php*/
+    background-color: ;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;  
+    display: block;
+}
+.tablaTexto_2{/*Afiliacion.php*/
+    background-color: ;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;  
+    display: block;
+}
+.tablaPrecio{/*Afiliacion.php    planes_I.php*/
+    background-color: ;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;  
+    font-weight: bold;
+    display: block;
+}
+.telefonos_03{/*03.php*/
+	background-color: ;
+	justify-content: space-between; 
+	display: flex;
+}
+.telefono_03A{/*03.php*/
+	background-color: ;
+	width: 40%; 
+	margin-left: 12%;
+}
+.telefono_03B{/*03.php*/
+	background-color: ;
+	width: 40%; 
+	margin-right: 12%;
+}
+.telefono_03C{/*03.php*/
+	background-color: ;
+	margin-top: -1%;
+}
+.texto{/*registroPaciente.php*/
+	background-color: ; 
+	width: 80%; 
+	margin: auto; 
+	margin-top: 3%;
+}
+.textoCelda_0{/*InicioSesion_Basico.php   pacienteRegistrado.php*/
+	background-color: ;
+    width: 5px !important;       
+}
+.textoCelda_2{/*pacienteTratamiento.php*/
+	color: ;
+	background-color: ;
+    font-size: 13px !important;
+    width: 100px;      
+}
+.textoCelda_3{/*buscarCitaNombre.php*/ 
+	color: ;
+	background-color: ;
+    font-size: 15px ;
+    width: 12%;      
+}
+.textoCelda_3A{/*buscarCitaNombre.php*/ 
+	color: ;
+	background-color: ;
+    font-size: 15px !important;
+    width: 12%; 
+    text-align: right;     
+}
+.textoCelda_3B{/*buscarCitaNombre.php*/ 
+	color: ;
+	background-color: ;
+    font-size: 15px !important;
+    width: 12%; 
+    text-align: left;  
+    height:  25px;   
+}
+.textoCelda_4{/*buscarMedicamentoNombre.php buscarTodosMedicamentOfertados.php buscarMedicamentoPrincipio.php pacienteTratamientos.php*/ 
+	background-color: ;
+    font-size: 12px ;
+    width: 15%;      
+}
+.textoCelda_4A{/*buscarTodosMedicamentOfertados.php  buscarMedicamentoNombre.php    buscarMedicamentoPrincipio.php */ 
+	background-color: ;
+    font-size: 12px ;
+    width: 11% !important; 
+}
+.textoCelda_4B{/*buscarTodosMedicamentOfertados.php  buscarMedicamentoNombre.php    buscarMedicamentoPrincipio.php   */ 
+	background-color: ;
+    font-size: 12px ;
+    width: 9% !important; 
+}
+.textoCelda_4C{/*buscarTodosMedicamentOfertados.php */ 
+	background-color: ;
+    font-size: 12px ;
+    width: 5% !important; 
+}
+.textoCelda_4C{/*buscarTodosMedicament.php  buscarMedicamentoNombre.php    buscarMedicamentoPrincipio.php   */ 
+    text-align: center;
+}
+.textoCelda_5{/*pacienteTratamientos.php  */ 
+	background-color:;
+    font-size: 14px ;
+    width: 100% !important;   
+    margin-top: 0%;
+    padding: 0 0;  
+    min-height: 220px;
+}
+.textoVerificar{/*Citas_2Autofill.php    Citas_2Autofill_2.php*/
+	background-color:;
+	margin-top: 12%;
+	display: block;
+    font-size: 12px ;
+	cursor: pointer; 
+	text-decoration: underline
+}
+.tratamiento{/*dianostico_Basico_2.php*/
+	background-color: ;
+	width: 95%;
+	height: 30px;
+	margin-left: 1.5%;
+	overflow: hidden;
+}
+.tratamiento_1{/*pacienteTratamiento.php */
+	background-color:;
+	margin:auto;
+	margin-top: 5%;
+	padding: 0px;
+	height: 400px;
+	width: 90%;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #040652;
+	overflow:auto;/*crea una barra vertical cuando la tabla es mas alta que el div que la contiene*/
+}
+.TratamientosMedicados_1{/*diagnostico_Basico.php*/
+	background-color: ; 
+	width: 50%; 
+	float: left;
+}
+.tra_Medicados_1{
+	background-color:; 
+	width: 45%; 
+	float: left;
+	margin-left: 1%;
+}
+.tra_Medicados_2{
+	background-color:; 
+	width: 45%; 
+	float: right;
+	margin-right:2%;
+}
+.usuarioDoctor{
+    width: 100%;
+    padding-right: 3%;
+    padding-top: 10%;
+    text-align: right;
+    margin-right: 0%;
+    background-color: #040652;
+    color: white;
+    height: 66px;
+}
+.vinieta1{
+list-style-image: url('list1.gif');
+ }

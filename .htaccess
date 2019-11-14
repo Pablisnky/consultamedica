@@ -1,0 +1,16 @@
+#Evita que se pueda entrar a las carpetas que componen el sitio web escibiendo en la dirección url
+	Options -Indexes 
+
+#Entra al sitio web utilizando el certificado de seguridad SSL
+	RewriteEngine on
+	RewriteCond %{HTTPS} !=on
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+#Redirige el sitio web aún sino se escribe el www
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^consultamedica.com.ve.com [NC]
+	RewriteRule ^(.*)$ http://www.consultamedica.com.ve/$1 [L,R=301]
+
+#Mejorar la compatibilidad de los caracteres; Con esta medida evitamos mostrar el famoso error 500. 
+	AddDefaultCharset utf-8
+

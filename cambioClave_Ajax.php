@@ -1,0 +1,1 @@
+Sus datos han sido confirmados, puede proceder a introducir una nueva contraseña

@@ -1,0 +1,114 @@
+		
+		.identar_check_2{
+			margin-top: 6px;
+			margin-right:0.5%;
+			float: left;
+			vertical-align:middle;
+		}
+		.identar_check_3{
+			margin-top: 5px;
+			margin-right:0.5%;
+			float: left;
+			vertical-align:middle;
+			padding-left: 5%;
+		}
+		.identar_check_3E{
+			background-color:;
+			margin-left: 3.5%;
+			margin-top: 19px;
+			margin-right:0.5%;
+			float: left;
+			vertical-align:middle;
+		}
+		.identar_check_4{
+			float: left;
+			margin-right: 1%;
+			vertical-align:middle;
+			margin-top: 5px;
+			margin-right:0.5%;
+		}		
+		.identar_check_4E{
+			float: left;
+			margin-left: 5%;
+			margin-right: 1%;
+			vertical-align:middle;
+			margin-top: 5px;
+			margin-right:0.5%;
+		}
+		.identar_1{
+			padding-left: 2%;
+			color:#F4FCFB; 
+			box-sizing: border-box;
+			padding-top: 0%;
+			font-size: 1.4vw;
+			background-color: #575DCE;
+			margin-top: 1%;
+			margin-bottom: -1%;
+			height: 4%;
+		}
+		.identar_2{
+			font-size: 1.3vw;
+			margin-top: 1%;
+			background-color: #040652;
+			color: #F4FCFB;
+			padding-left: 2%;
+			display: block;
+			cursor: pointer;
+			display:block;
+		}
+		.identar_3{
+			background-color:;
+			padding-left: 3.5%;
+			font-size: 14px;
+			line-height: 150%;
+			cursor: pointer;
+			display:block;
+			margin-top: 1%;
+			font-weight: bolder;
+		}
+		.identar_3:hover{
+			background-color: #BEBFDD;
+		}
+		.identar_3E{
+			background-color: ;
+			margin-left: 0%;
+			font-size: 14px;
+			line-height: 150%;
+			cursor: pointer;
+			padding-left: 5%;
+			display:block;
+			margin-top: 1%;
+			font-weight: bolder;
+		}
+		.identar_3E:hover{
+			background-color:#BEBFDD ;
+		}
+		.identar_4{
+			background-color: ;
+			padding-left: 5%;
+			font-size:14px;	
+			line-height: 150%;
+			cursor: pointer;
+			display:block;
+			color:#040652;
+		}
+		.identar_4:hover{
+			background-color: #BEBFDD;
+		}
+		.identar_4E{
+			background-color: ;
+			padding-left: 6.5%;
+			font-size:14px;	
+			line-height: 150%;
+			cursor: pointer;
+			display:block;
+			color:#040652;
+		}
+		.identar_4E:hover{
+			background-color: #BEBFDD;
+		}
+		.identar_5{
+			margin-top: ;
+			margin-left: 3%;
+			font-size: 1.2vw;
+		}
